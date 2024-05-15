@@ -13,5 +13,6 @@ exec ros -Q -- $0 "$@"
 (in-package :ros.script.cl-pr-pulse.3924768017)
 
 (defun main (&rest argv)
-  (declare (ignorable argv)))
+  (declare (ignorable argv))
+  (format t "Hello World!"))
 ;;; vim: set ft=lisp lisp:
