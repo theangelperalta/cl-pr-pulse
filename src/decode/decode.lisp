@@ -21,7 +21,7 @@
          (start-date (local-time:timestamp-maximum commit-date (local-time:parse-timestring (assoc-path pull-request '(:published-at)))))
          (comment-count (assoc-path data '(:comments :total-count)))
          (time-to-review-secs (local-time:timestamp-to-unix (diff-timestamp submitted-at start-date))))
-    (model:make-review :id id :author author :is-own-pull is-own-pull :submitted-at submitted-at :comment-count comment-count :time-to-review-secs time-to-review-secs))))
+    (model:make-review :id id :author author :is-own-pull is-own-pull :submitted-at submitted-at :comment-count comment-count :time-to-review-secs time-to-review-secs)))
 
 (defun decode-pull-requests (data)
   (mapcar (lambda (pull-request) (model:make-pull-request :id (assoc-path pull-request '(:id)) :title (assoc-path pull-request '(:title)) :published-at (assoc-path pull-request '(:published-at)) :author (assoc-path pull-request '(:author)) :reviews (mapcar #'(lambda (data) (decode-review pull-request data)) (assoc-path pull-request '(:reviews :nodes))))) (cdr (cadadr (cadar data)))))
