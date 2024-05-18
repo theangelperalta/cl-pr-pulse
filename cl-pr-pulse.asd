@@ -11,7 +11,9 @@
   :pathname "src"
   :serial t
   :depends-on (#:util
-               #:net)
+               #:net
+               #:model
+               #:decode)
   :components (
                (:file "main")))
 

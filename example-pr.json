@@ -1,0 +1,2447 @@
+{
+	"data": {
+	  "repository": {
+	    "pullRequests": {
+	      "nodes": [
+		{
+		  "id": "PR_kwDOCishDM5uzK83",
+		  "publishedAt": "2024-05-07T19:20:38Z",
+		  "author": {
+		    "url": "https://github.com/eduardoperez-nbcuni",
+		    "login": "eduardoperez-nbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+		    "databaseId": 55159287
+		  },
+		  "title": "[VPTAPPLE-628] Playlist name is not reported to VAM",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2575",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI3MWI3NDVkNmE0NmJjYTU2Mzg5MTYzY2M3MmY1M2JlM2VhNTE3NzY",
+			  "committedDate": "2024-05-07T19:18:42Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQ5ODQ2MzhlNWMzY2JkNGI5MWY3ZTg1MzA2NWQ1ZjQwNTU1ODMzMWQ",
+			  "committedDate": "2024-05-10T09:22:18Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM551Y6X",
+			"submittedAt": "2024-05-07T19:49:50Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-10T09:22:18Z",
+			  "id": "C_kwDOCishDNoAKGQ5ODQ2MzhlNWMzY2JkNGI5MWY3ZTg1MzA2NWQ1ZjQwNTU1ODMzMWQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56F0C6",
+			"submittedAt": "2024-05-09T16:22:39Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-10T09:22:18Z",
+			  "id": "C_kwDOCishDNoAKGQ5ODQ2MzhlNWMzY2JkNGI5MWY3ZTg1MzA2NWQ1ZjQwNTU1ODMzMWQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5u_ejR",
+		  "publishedAt": "2024-05-09T13:31:37Z",
+		  "author": {
+		    "url": "https://github.com/MKW11",
+		    "login": "MKW11",
+		    "name": "Mateusz Kosikowski, PhD",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+		    "databaseId": 89518723
+		  },
+		  "title": "VPTAPPLE-256. VAM Parameters for Multiview",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2576",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRjOTczMjIyZWYyNjZiMmYyMzRhMDRjOWU2YmU3NmI1ZGU2YmQ5MzQ",
+			  "committedDate": "2024-04-17T18:02:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUxYjRhZjI4YjU1ZDdmYjgyYWExMTRkOTk5YzkwOGNjZmM3NjVlZmQ",
+			  "committedDate": "2024-04-17T19:22:56Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGMwYmVmZGU4ZGUwMGQ0NGY0MzQ5YTljZTA1MjRhMDhjNTQzNzA4YmI",
+			  "committedDate": "2024-04-17T19:46:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDdjYzQxMTJmZWNhNTIyN2NmNzVhNjZmZTI4YTc1YTc2ZDZjY2YxOGM",
+			  "committedDate": "2024-04-17T20:16:22Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDFiYzMyZWI3NDU2ZDAzZGE1YTYzOTkyOWQyMTAxMzQyNmQ2MDlkODU",
+			  "committedDate": "2024-04-17T20:59:13Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGU3ZjYxM2YxMmEyOGFmMTYwMWI4ODBlNWJhYjkxNzcyZjc3ZmE3YmM",
+			  "committedDate": "2024-04-17T21:19:39Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGRiMGMxYmI1YzUzNDZjYzdkZjY2ZWU2MWMyMjBjMTdiZWFlNDVhYzg",
+			  "committedDate": "2024-04-18T07:17:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDYxMjg5MTEzYTZjM2M2OWRmN2NlMzZjZmM3YzA5ZjY2ZTAyMWEyMmE",
+			  "committedDate": "2024-04-18T07:25:55Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDNjY2FhOWM2YjI2NmYxMDVmMmJjMDkzNTViNWRkYzk5YjRmZTNhYzc",
+			  "committedDate": "2024-04-18T07:26:09Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDg5MjhlNGE5ZGYzNjc3OTY5MGUyYjA4ZmZkNjBmNjg5MzJiNmJkMWY",
+			  "committedDate": "2024-04-18T10:56:29Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDMxMjhkZjJjYTcwYTNmOTc2MjE2YzFiYTNhOWEwOWNmZjEyMDMxYzI",
+			  "committedDate": "2024-04-18T10:59:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGU1YTQwMTEzYTk1ZWZhYzc0YTE0M2ViYjgyZjQ0MjljNjY3MTZhOWM",
+			  "committedDate": "2024-04-18T11:01:10Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUzYTViYjU2NjQ3MjMwYWUyMDI3NDIyMDUxYWIyNTc1ODFlNDE2NDE",
+			  "committedDate": "2024-04-18T11:01:25Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ4NTIwYmRiOWM1NDYwMGRhMTg5YjVhMjBlYTQ0MDMzNWQ4NThkZDM",
+			  "committedDate": "2024-04-18T12:18:22Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNmZDIzY2RiOWUwMjY3ZWI4ODdlNTc5MjcyN2U3NTk4MzExY2Q1M2I",
+			  "committedDate": "2024-04-18T12:18:28Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDZmYjU1NDFiMjlhZWZmOWNhM2QyNWM5NmNkOGNlZDc0YzMwZjhmYTg",
+			  "committedDate": "2024-04-18T12:18:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNjZTNlN2Q0MGQ3N2I4NDkyZmM3YjgzNjkwZDE3ZjI4MmVmYzczMzU",
+			  "committedDate": "2024-04-18T12:20:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNhMTkxY2M0ZTQ5ZTVjZTc0MjlhNTI4NDQwOWNjYmM2ZDkxZDE2YzU",
+			  "committedDate": "2024-04-18T12:34:22Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDc4MzYwNjc0MTgyZTMxMGMzOWJlMTdkM2Q0YjQzMzFlOGE0ZmYwOTM",
+			  "committedDate": "2024-04-18T15:00:12Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGJlODNkYjg4Y2NkNDU4MjNmNWI3NDRlNzgxYmNkOTZmOGFmYTgyYzY",
+			  "committedDate": "2024-04-18T15:00:17Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUzZGFjMWE4ZjcwNzU5ZTQxMWEzOTRlOGY3NzY5NzIwZDZhZTIyNTE",
+			  "committedDate": "2024-04-18T15:10:20Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGE2YmNmMTVhMzY0NGEwYmIyZDk5ZTVmNzE3YjJiY2VlMDZhMTYxNDc",
+			  "committedDate": "2024-04-18T15:13:03Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGRhZWRkZmFjYWE1YzdkMjY0M2Y2MzYxMWUyMjQ3OGQ2NzExMjAwMzg",
+			  "committedDate": "2024-04-18T15:13:23Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDJhZjA2ZTRlM2VjZDc5NGZmOGYyODlkMjJmNzdjOTJjMDE5ZmEzMWE",
+			  "committedDate": "2024-04-18T15:22:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDE3YjlmOGI4OTc1YWYwZmY1NDFkNmM1YzA5Y2I3ZmU5MzE1OTY4YmU",
+			  "committedDate": "2024-04-18T15:22:24Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGJhZTgyMzJlMzY1YzBjNWU2Zjk2ZDhiZDA4YmY1YTViYzk4Zjg5ZWU",
+			  "committedDate": "2024-04-18T16:17:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGM0MWRlMjQxZWM3NDgxOTFiYzM1MDQ4MjlhN2IzZWNlNWRlZmZiZDM",
+			  "committedDate": "2024-04-18T18:17:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDlhNWNlZDQwN2E2ZGU2YzUyNWVjY2EzODIyZTI0OTQ3ZjhhNDY1M2M",
+			  "committedDate": "2024-04-18T18:25:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGE2OWYxNWM0ZTRhZjUxOTBlOGIwYWJlNTE0Mjc3NGY2MGI2YWY0MDM",
+			  "committedDate": "2024-04-18T18:41:18Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDNkNzc2NzJiN2UxNDExMDUxOTY4YjM5NTRhYTYyOWQ2OTI1NjllMTM",
+			  "committedDate": "2024-04-18T21:00:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRhNzQzNjA2OWM0MDM5MDUxZDYyZDBmZjE1NmZjMTA4YmU4ZDVkNzk",
+			  "committedDate": "2024-04-18T21:25:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI3NmVhM2E4NWU0MTgxNTc4NTQyYjA4ZDVhZDdmNTUyN2IyODhmM2I",
+			  "committedDate": "2024-04-18T21:29:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA0YmJkMjc4MzlkZmU2ZmZlM2ZjZWQyZGQ1NGU3MGQwMzFmNGM2NzA",
+			  "committedDate": "2024-04-18T22:25:19Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI1NjZjOTM3MmEzMzhmYzQ1ODhkZDg0YzA0OWI0OTRiYWY5MGZiNzg",
+			  "committedDate": "2024-04-19T09:51:32Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDJkYTNjYTFiZmJjYTYzOGEzN2Y5MThmYWRkYmI0OTk5NmFjYzJkOWQ",
+			  "committedDate": "2024-04-19T12:40:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGU3ZmRkMDA0ZGE4NjAxNjQ5ZjgzZDhjMGQzYzg5MjdlNzhhZTM2MzA",
+			  "committedDate": "2024-04-19T16:26:39Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGMwMmVjZTFkNjA1ZWI5NTE5M2JjOWVlZWI0OTNmNGExZDVhMGFjOGI",
+			  "committedDate": "2024-04-19T21:52:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGY2NTQ5ZDczMGQ2ODA3NWU4MzY2MTU2YjllYjZiMzAzNDMwY2EyZWU",
+			  "committedDate": "2024-04-20T06:49:23Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNiMGQ0MWZmYzA2NTAxMzBiMzg0NzRjYjQ4ODhiZjc5NmI2MjFjYzA",
+			  "committedDate": "2024-04-20T09:40:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUxZGU0ZTFjY2UyODE2NDJmNTVjM2I2YjA3YTljMDhiYjQ5ZmE0Yjk",
+			  "committedDate": "2024-04-20T09:51:01Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM3NmQ2ZTQwMzBlYjJhOTZmNWU4ZWJjZDg3MmI0YjZjNzU0ODFlYjc",
+			  "committedDate": "2024-04-22T10:51:09Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGRiYWQ5MGM0MGRmMzI2NDlhN2Q5NWExMGJiNTgzMjQzNjcyMTZmZDY",
+			  "committedDate": "2024-04-22T17:06:41Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM0ZGEyN2EwNzNjNWVmOTgwZWY2MDBlZmY0YjRjMDJjMGM0NWM2NDI",
+			  "committedDate": "2024-04-23T16:18:12Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDcwODRmYjE2YzgwYzUwYjNkMmZhYjc2ODc5ZTU0NjMyOTZiYzA4OTU",
+			  "committedDate": "2024-04-23T16:20:04Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGUwMjdkYWU0Y2E5YzYxZDIyOWQ5ZjE1MmMxYmUxMWZjOGFiMDQ3YzQ",
+			  "committedDate": "2024-04-23T17:00:34Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRiNWFlMTQ5YTZmNGU5NmYzMjk0MmI4MGJmZDg3MjNiMTRhZWFkNzE",
+			  "committedDate": "2024-04-23T17:33:43Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDY3NzFhMTlmYmUwNDU0YWYzMWVmNmM5YmJiNGRjMjRkODJlODQ3ZDc",
+			  "committedDate": "2024-04-23T17:35:39Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDVjMGViZWMyNzkwZThmZWE0ZmZmZGZhNjI5ZDFiOTBkZDc0Y2UzMGM",
+			  "committedDate": "2024-04-23T17:38:38Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM3ZTg3OWQwMGEyMzk5NzU0YTEzY2ZmOTVkMmYyMjA5ZWJlMzU4MGU",
+			  "committedDate": "2024-04-24T13:32:10Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ4ZDY1ZGUxZWU2N2YwOTU3ZTIxZmFjMDNlMTk3MWQ2OTQxNWQ4MmI",
+			  "committedDate": "2024-04-24T13:40:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGJhYzUwNjNlODU2NzMyMTYzOWE0YTBhNzU5MDM3YjA2YTdkNjA1ZDI",
+			  "committedDate": "2024-04-24T15:44:56Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ0OTZiMjA1NGJhMmExM2U2ODRhNjAyYWUwMmJmNzYzMzNhZjZjMDM",
+			  "committedDate": "2024-04-24T20:13:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDhlYzRmZmI5ZDJmMzU2ZDFkMGE5M2E1M2VlMzkwZjRhYTVhOWU0M2U",
+			  "committedDate": "2024-04-25T06:59:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDlhNjQyMjM1ODczYmJhODlkNzFkMGM5MzI4MWE2ZWMwNDNhMmNiZTY",
+			  "committedDate": "2024-04-25T13:35:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDFiMzZkNzI4ZmVhY2JmNDJhZmRlYTQ3MTg2YzA4NjA0YzdiN2EwOWI",
+			  "committedDate": "2024-04-25T13:45:38Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDAzZTI2ZjUwYWM3ZjQwMzdmODE3YjM3M2U1OTFkMTliZTg5ODJmOTM",
+			  "committedDate": "2024-04-25T13:51:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGM4ODIwOTAxYzkyOWY3ZjU5YzVlZmFmYjRmMjFhOWVhOGUzM2U4NTQ",
+			  "committedDate": "2024-04-25T13:51:07Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM4OTlhNDU5NTlhYjNkYzg4YWY0NGVlNTczYzc3NzU4ZmFjM2Y5ZTI",
+			  "committedDate": "2024-04-25T21:08:56Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ3MTA5N2U2MjBjZjNkODRhNGM1YzRlNjFlNzhlZDEyZjNjNGYyNWY",
+			  "committedDate": "2024-04-26T12:50:44Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM0NTcyMzQwNmZhNTBkMzU0ZDI3YTgxZGEzM2M3YjQ0ZWViYjQ0ODk",
+			  "committedDate": "2024-04-26T12:50:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDYyNGY3ZWU2MDRiNzhmZWM2NGM2NDE2MmU0MGIwMWE4Y2ExZTEwOWU",
+			  "committedDate": "2024-04-27T13:37:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDk1NGNjNmJiYzA3OGY0Y2FkNjQ2MmU1ZDMxN2JiNzliNGZkNGM2NTE",
+			  "committedDate": "2024-04-29T10:45:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDEzYmNlODUxYmY1ZjUwYzNkNjc1YWI4OTk1M2YzN2EwYWVmNjMxMzE",
+			  "committedDate": "2024-04-29T10:50:14Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDNkMjJhZmE3ZmZmNTg4NDk4NTFlYWI3MTMyZmYxNmQzMGY4NTA3ZDE",
+			  "committedDate": "2024-04-30T07:38:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGViMzk5ZmE3MzFmNzVkMzAyZGRhMWQ0ZTRkNDc1ZWFjNTcxNzkzYzI",
+			  "committedDate": "2024-04-30T16:40:01Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDFkMDhjOGQzODhkM2NkYjZhNDNiMjM2ZjRjYjYzZDRjODU4MTA0OGQ",
+			  "committedDate": "2024-05-01T13:34:34Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDU5ZDI4ZTgxNWM0MDY5MTU5MjFjNTRhZmNjNjM4ODE5NTRlYmVmMDk",
+			  "committedDate": "2024-05-01T15:35:36Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDBhODBkNDA0MzgwYWU0ZjEyNTM4MTgzYWJhZjYyNDVmYTFkZDViNDk",
+			  "committedDate": "2024-05-01T16:50:49Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgxNDFmY2ZmYzc5YTI4YWEwYmFkZmIyMjgxMmQxYjI2ZGRmYjIxNmU",
+			  "committedDate": "2024-05-01T17:03:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDJiY2Y3YWFkNTUyMDU4M2Q1NmRhMjY1NGUzODljNWZlYjFlYmQ0NzE",
+			  "committedDate": "2024-05-02T09:21:39Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGY0ZDY0YjRhZjkzODM4M2NkNDM3NTliNGMzMWE3MTk3MTY1M2Y1MzQ",
+			  "committedDate": "2024-05-02T09:21:41Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGZhNWUyMTIwNDk4MWVlOGEwYjdlZmQxNDAwYTQwZGYxZDExOWE1NmY",
+			  "committedDate": "2024-05-02T10:36:35Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI3MDA4OWU0ZjFhYmMwMzZmYjM1ODY0YWExOWVlNjFiZDI5ZDExYzc",
+			  "committedDate": "2024-05-02T12:42:12Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDE4MTc4OGU0ZDUzZDkzOTE5NDQ1MWQzMzdhZGZiZWYzNmY4ZDg4YmY",
+			  "committedDate": "2024-05-02T13:46:32Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDIzYjUxZjJmYjNkZGJjZjFhMWYyZTMwYTQ2MzJjNWZjZmUwNTQ3ODE",
+			  "committedDate": "2024-05-02T13:48:08Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGExYjkyYTcwOWJkNDY1Y2E2NDY2Y2I4NjRjODY1MWIxYWFhMjhhYmI",
+			  "committedDate": "2024-05-02T13:48:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgwZjBmNDBiZjdlMWMwY2M5YTA3OGRjMzQzMzc0N2Y0NjFmNTExZjc",
+			  "committedDate": "2024-05-02T16:07:26Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ1YTliNjdmYWMxN2I5OWVlNDNjMWMwNzcxNjNmODg4YjRjOWIxODE",
+			  "committedDate": "2024-05-02T19:42:33Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgzZmFlMTYzNGY4ZDk1NDQ3NjcyYTcwNWJlMjFjZjBiOWZlYzc0ZjE",
+			  "committedDate": "2024-05-03T11:54:14Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDY1NzU2ODYwZjJlNjE4YmRhYjk5MDdkYTg0YWYwMGFjMWI0Y2Y0MWU",
+			  "committedDate": "2024-05-03T14:45:45Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDE5OWUxZjczZjEzZDM3YWE5M2UwZjY3YTFkYzNmZWY1ZWYwMWY0ZTU",
+			  "committedDate": "2024-05-03T20:15:51Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNkMDAzN2Y3NDM4NjQ2ODA1NzE0YmVlYzQ3NWYxOTZiZmYwOTczYTY",
+			  "committedDate": "2024-05-07T07:43:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDI3N2VjNDBlMGVlMmMzZjZmZjM3M2QzNGVlZmY5YWI3ZGFmM2RjOWE",
+			  "committedDate": "2024-05-07T12:06:04Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGZkOTNiMmMwNzY3Y2M5ZjBiN2UyMmNmMDA0ZjI2YTU2YTg4N2FlY2I",
+			  "committedDate": "2024-05-07T14:29:54Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDcwODc0MTAxYzcyMTJiNDVmZTQ1YjExYzE4ZmJiZjllNTY0MWRiNGY",
+			  "committedDate": "2024-05-07T17:35:24Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDI1MmIxNDZlMDA0MThlNjUyY2Q3MzI2NWJhZDg2YmE2YmY0NzE0NzA",
+			  "committedDate": "2024-05-07T18:05:35Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDZmZTJhMDhkZWRmMjE4MTYyMGNkMjk5MDMxYWRjYzg5YWI3YmI5MDg",
+			  "committedDate": "2024-05-08T07:58:45Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDJiZGMxZjdjYTI4ZmVkZGI0ZmFlMDU4ODA4NmZjNDAwNWJmMGE1NWM",
+			  "committedDate": "2024-05-08T13:51:25Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGMxNTZhMmQ3NTQwZGE3NTJkY2QyZmY5MmU2OThjNzdlMTQ1OGU3Y2M",
+			  "committedDate": "2024-05-08T21:12:59Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGE3OTM2YjI1MWQ5NDI3ZjFhMzU5NWRkYThiNTc3YWY2OTQ0YzU5NTQ",
+			  "committedDate": "2024-05-09T13:29:55Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDlmYWJjY2Y1ZTFkYjQxM2NmMzkxYmEwMGYxYjQwNzBhZTlhMDg3MTk",
+			  "committedDate": "2024-05-09T14:11:45Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGFhOTkzODM3ODk1OTY0MjgwOTc0YWE2OWJmNWJmODM2MWUyYWI3NDQ",
+			  "committedDate": "2024-05-09T15:34:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI3YzhjMGMxYjE0NGIzM2M3NDgxNjAyM2JiMzQ1ZDI4YWIzZGVlYjY",
+			  "committedDate": "2024-05-09T15:43:17Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGFiNzdmZTFlNDFiOWE3ODdkYWU2M2NiMDRjYWUwZjhkY2VjOTJlZDQ",
+			  "committedDate": "2024-05-10T07:55:15Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGIxMDcyMTA5ZDQzZjZiYzk2M2YyMjEwZDE4ODBlYmJhYjRmNzEyYzU",
+			  "committedDate": "2024-05-10T17:41:13Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQwY2UxMGFkNGZmNzIwYWUwOTg5ODE4MzI4OGI3NzllNmM4YjUwNjQ",
+			  "committedDate": "2024-05-13T16:18:23Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDNiOWViY2UzM2IxNjVmYjRjYjAzYzViMzIxN2MyYTQ2Nzg2NmFhNDE",
+			  "committedDate": "2024-05-13T18:59:42Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA0ZDExOWFjZmM2OTM4MTNmNTg2NjYyODFiNzYxOTc3MWVmNmFmMmU",
+			  "committedDate": "2024-05-13T20:57:19Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDNiM2JiM2Y5N2ZkYTcyODRiNDg5OWU0ZDA4MjViZjNmMmRjZmNjZjE",
+			  "committedDate": "2024-05-14T14:05:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDcyZmQxYWYwNTYzN2FjNTY3YzRlNzA2NWIzOTIwZDRjZjdmY2I3Njg",
+			  "committedDate": "2024-05-14T17:43:33Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56ExI1",
+			"submittedAt": "2024-05-09T14:17:23Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-09T14:11:45Z",
+			  "id": "C_kwDOCishDNoAKDlmYWJjY2Y1ZTFkYjQxM2NmMzkxYmEwMGYxYjQwNzBhZTlhMDg3MTk"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/theangelperalta",
+			  "login": "theangelperalta",
+			  "name": "Angel Peralta",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+			  "databaseId": 12777745
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56Eyl-",
+			"submittedAt": "2024-05-09T14:20:08Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-09T14:11:45Z",
+			  "id": "C_kwDOCishDNoAKDlmYWJjY2Y1ZTFkYjQxM2NmMzkxYmEwMGYxYjQwNzBhZTlhMDg3MTk"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56E17G",
+			"submittedAt": "2024-05-09T14:26:18Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-09T14:11:45Z",
+			  "id": "C_kwDOCishDNoAKDlmYWJjY2Y1ZTFkYjQxM2NmMzkxYmEwMGYxYjQwNzBhZTlhMDg3MTk"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56FQcH",
+			"submittedAt": "2024-05-09T15:16:56Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-09T14:11:45Z",
+			  "id": "C_kwDOCishDNoAKDlmYWJjY2Y1ZTFkYjQxM2NmMzkxYmEwMGYxYjQwNzBhZTlhMDg3MTk"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/eduardoperez-nbcuni",
+			  "login": "eduardoperez-nbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+			  "databaseId": 55159287
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56FmNL",
+			"submittedAt": "2024-05-09T15:54:38Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-09T15:43:17Z",
+			  "id": "C_kwDOCishDNoAKGI3YzhjMGMxYjE0NGIzM2M3NDgxNjAyM2JiMzQ1ZDI4YWIzZGVlYjY"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/rcheema-sky",
+			  "login": "rcheema-sky",
+			  "name": "Randeep Cheema",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80718099?v=4",
+			  "databaseId": 80718099
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56FmNn",
+			"submittedAt": "2024-05-09T15:54:38Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-09T15:43:17Z",
+			  "id": "C_kwDOCishDNoAKGI3YzhjMGMxYjE0NGIzM2M3NDgxNjAyM2JiMzQ1ZDI4YWIzZGVlYjY"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/eduardoperez-nbcuni",
+			  "login": "eduardoperez-nbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+			  "databaseId": 55159287
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56K_6o",
+			"submittedAt": "2024-05-10T09:33:03Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-09T15:43:17Z",
+			  "id": "C_kwDOCishDNoAKGI3YzhjMGMxYjE0NGIzM2M3NDgxNjAyM2JiMzQ1ZDI4YWIzZGVlYjY"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56LASN",
+			"submittedAt": "2024-05-10T09:33:58Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-10T07:55:15Z",
+			  "id": "C_kwDOCishDNoAKGFiNzdmZTFlNDFiOWE3ODdkYWU2M2NiMDRjYWUwZjhkY2VjOTJlZDQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56NM_U",
+			"submittedAt": "2024-05-10T15:05:56Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-10T07:55:15Z",
+			  "id": "C_kwDOCishDNoAKGFiNzdmZTFlNDFiOWE3ODdkYWU2M2NiMDRjYWUwZjhkY2VjOTJlZDQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/theangelperalta",
+			  "login": "theangelperalta",
+			  "name": "Angel Peralta",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+			  "databaseId": 12777745
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56YRgu",
+			"submittedAt": "2024-05-13T16:31:11Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T17:43:33Z",
+			  "id": "C_kwDOCishDNoAKDcyZmQxYWYwNTYzN2FjNTY3YzRlNzA2NWIzOTIwZDRjZjdmY2I3Njg"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56Ze6n",
+			"submittedAt": "2024-05-13T18:59:59Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T17:43:33Z",
+			  "id": "C_kwDOCishDNoAKDcyZmQxYWYwNTYzN2FjNTY3YzRlNzA2NWIzOTIwZDRjZjdmY2I3Njg"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/theangelperalta",
+			  "login": "theangelperalta",
+			  "name": "Angel Peralta",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+			  "databaseId": 12777745
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gcB8",
+			"submittedAt": "2024-05-14T13:07:49Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T17:43:33Z",
+			  "id": "C_kwDOCishDNoAKDcyZmQxYWYwNTYzN2FjNTY3YzRlNzA2NWIzOTIwZDRjZjdmY2I3Njg"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5u_5aJ",
+		  "publishedAt": "2024-05-09T14:37:19Z",
+		  "author": {
+		    "url": "https://github.com/jasonquache",
+		    "login": "jasonquache",
+		    "name": "Jason Quach",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+		    "databaseId": 59347744
+		  },
+		  "title": "[VPTAPPLE-618] Multiview - Bug Fix for OVP Failure When Recovering from a Binge Event Switching To An Ended Stream",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2577",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDk3OTQ3NTFjMGQ1NzVjNWE5ZGUwMWE0YjAyOWM5MmQzMzMxODQyZTg",
+			  "committedDate": "2024-05-09T14:30:30Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI4MDIyNDUzNjVhMzhiYTBiMTE4MmFjYWYzYTJhOGNiMDJhMDllYWM",
+			  "committedDate": "2024-05-09T14:31:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDEwNmM1ODc1NjVjNDViN2VjZmJiZmZmYTU0ODdjOGY5MTZlZjhiMjQ",
+			  "committedDate": "2024-05-10T17:08:51Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDU1ODEyODg5ZjhkMGNjNmMyNDdiOWQ1ZTQyYThjZjgzMWM1YmJjOWM",
+			  "committedDate": "2024-05-10T21:27:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGIxYzA4ZGI4ZGIzZTk4NmFhOTZmMzI5NjQyZWU4MGM0MDFmYWUzOGQ",
+			  "committedDate": "2024-05-13T16:52:01Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56E8wj",
+			"submittedAt": "2024-05-09T14:39:12Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-13T16:52:01Z",
+			  "id": "C_kwDOCishDNoAKGIxYzA4ZGI4ZGIzZTk4NmFhOTZmMzI5NjQyZWU4MGM0MDFmYWUzOGQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56FBAN",
+			"submittedAt": "2024-05-09T14:46:53Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-13T16:52:01Z",
+			  "id": "C_kwDOCishDNoAKGIxYzA4ZGI4ZGIzZTk4NmFhOTZmMzI5NjQyZWU4MGM0MDFmYWUzOGQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vHtaH",
+		  "publishedAt": "2024-05-10T17:30:11Z",
+		  "author": {
+		    "url": "https://github.com/eduardoperez-nbcuni",
+		    "login": "eduardoperez-nbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+		    "databaseId": 55159287
+		  },
+		  "title": "[VPTAPPLE-639] Updated AdobeAppID for SwiftUI ReferenceApp",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2580",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI4OWYwNThkMmUyN2FhMmRhNTU1N2VkNzlhZjA0MDc5NWQ2MDhiN2M",
+			  "committedDate": "2024-05-10T17:28:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM1Y2VjYmUzOGNiYmJjMWViZTIwN2Y4MzJhZDIzOGVjN2VhZDJmMDE",
+			  "committedDate": "2024-05-10T17:33:26Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56OcKL",
+			"submittedAt": "2024-05-10T18:10:55Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-10T17:33:26Z",
+			  "id": "C_kwDOCishDNoAKDM1Y2VjYmUzOGNiYmJjMWViZTIwN2Y4MzJhZDIzOGVjN2VhZDJmMDE"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56OhJv",
+			"submittedAt": "2024-05-10T18:24:38Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-10T17:33:26Z",
+			  "id": "C_kwDOCishDNoAKDM1Y2VjYmUzOGNiYmJjMWViZTIwN2Y4MzJhZDIzOGVjN2VhZDJmMDE"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vIHFi",
+		  "publishedAt": "2024-05-10T18:57:37Z",
+		  "author": {
+		    "url": "https://github.com/theangelperalta",
+		    "login": "theangelperalta",
+		    "name": "Angel Peralta",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+		    "databaseId": 12777745
+		  },
+		  "title": "[VPTAPPLE-593] • Add feature flag for MediaTailor Pagination",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2581",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDcwZTQ5MDE3MmMyNzMwMGFkMjUwZjdkOWNhZjlkYWY1MTA5MDIyYjY",
+			  "committedDate": "2024-05-10T18:56:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGU0YjY1ZDYwZjRmNmVjODQ1ZTdhZTA4ZTJhMWE1ODY5MTFjZTg3NDk",
+			  "committedDate": "2024-05-10T19:15:28Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM1YmM3YmYxZTZmMzA3ZDYwZDczZjQyOTBkY2E0OTExZjFhY2ZhNzA",
+			  "committedDate": "2024-05-10T19:15:44Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGM4M2M4MWIxYTNiM2VlOGM1MWU3MDZiMjRiZWI1NzViYzE5NzdiMDc",
+			  "committedDate": "2024-05-10T20:31:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDdkOTFmMDA5MTQ3NWY3MzBlZmU0ZTI3NDZkNmQzNjJhOGY5NTkzZDM",
+			  "committedDate": "2024-05-13T13:37:20Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDI0YTliZjkxYjc3MjNkOTU3YmY4NWU5MzVlZGQ5NDhlN2I0YjZkODQ",
+			  "committedDate": "2024-05-13T14:40:18Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDEyMGI5YWVlZjQ4MTlhZGViYWZhZWU4NzM0MTIyMTJjZjllZjhlZWI",
+			  "committedDate": "2024-05-13T18:05:03Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDc5OWZiNjc0YmQ4ZWE3YTQ5ZWY2MzkxODExZTI5ZjU4ZWU2NDUzYzA",
+			  "committedDate": "2024-05-14T09:49:45Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ1M2I0MjkwMjUwOGVhM2QyOTVlMWZjZjc5MzQxZjcyOTA0MzkzZGE",
+			  "committedDate": "2024-05-14T12:49:27Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDZkNjljYmYyYTg2MzBmNjc3NDRmMWU4MzcxOGYyOWRmOGVjYTE2YTc",
+			  "committedDate": "2024-05-14T16:31:00Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56PA_h",
+			"submittedAt": "2024-05-10T19:39:49Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-10T20:31:52Z",
+			  "id": "C_kwDOCishDNoAKGM4M2M4MWIxYTNiM2VlOGM1MWU3MDZiMjRiZWI1NzViYzE5NzdiMDc"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56PSrz",
+			"submittedAt": "2024-05-10T20:24:48Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-10T20:31:52Z",
+			  "id": "C_kwDOCishDNoAKGM4M2M4MWIxYTNiM2VlOGM1MWU3MDZiMjRiZWI1NzViYzE5NzdiMDc"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56T25t",
+			"submittedAt": "2024-05-13T08:27:48Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-10T20:31:52Z",
+			  "id": "C_kwDOCishDNoAKGM4M2M4MWIxYTNiM2VlOGM1MWU3MDZiMjRiZWI1NzViYzE5NzdiMDc"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WkJf",
+			"submittedAt": "2024-05-13T13:37:55Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-10T20:31:52Z",
+			  "id": "C_kwDOCishDNoAKGM4M2M4MWIxYTNiM2VlOGM1MWU3MDZiMjRiZWI1NzViYzE5NzdiMDc"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/theangelperalta",
+			  "login": "theangelperalta",
+			  "name": "Angel Peralta",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+			  "databaseId": 12777745
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56XAzi",
+			"submittedAt": "2024-05-13T14:20:56Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T16:31:00Z",
+			  "id": "C_kwDOCishDNoAKDZkNjljYmYyYTg2MzBmNjc3NDRmMWU4MzcxOGYyOWRmOGVjYTE2YTc"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56YFLT",
+			"submittedAt": "2024-05-13T16:09:37Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T16:31:00Z",
+			  "id": "C_kwDOCishDNoAKDZkNjljYmYyYTg2MzBmNjc3NDRmMWU4MzcxOGYyOWRmOGVjYTE2YTc"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vQagZ",
+		  "publishedAt": "2024-05-13T13:09:04Z",
+		  "author": {
+		    "url": "https://github.com/rcharlton-sky",
+		    "login": "rcharlton-sky",
+		    "name": "Robin Charlton",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+		    "databaseId": 121031752
+		  },
+		  "title": "[VPTAPPLE-596] Fix: Ref app creates and destroys dozens of player controllers ",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2582",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDlhZmNkMWI0MWM1ODJjMjVhNzFiN2YwY2U0MWNhZDMyMjM3NDMzNGY",
+			  "committedDate": "2024-05-13T13:01:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDAyOThmMWZiMTdiMzYxY2RkNDlmOTUwNjU0NGY1NTk2ZDRmNTdlNTk",
+			  "committedDate": "2024-05-14T08:29:34Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56YC4p",
+			"submittedAt": "2024-05-13T16:06:15Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T08:29:34Z",
+			  "id": "C_kwDOCishDNoAKDAyOThmMWZiMTdiMzYxY2RkNDlmOTUwNjU0NGY1NTk2ZDRmNTdlNTk"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56eCh5",
+			"submittedAt": "2024-05-14T08:42:28Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-14T08:29:34Z",
+			  "id": "C_kwDOCishDNoAKDAyOThmMWZiMTdiMzYxY2RkNDlmOTUwNjU0NGY1NTk2ZDRmNTdlNTk"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56eCkP",
+			"submittedAt": "2024-05-14T08:42:30Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T08:29:34Z",
+			  "id": "C_kwDOCishDNoAKDAyOThmMWZiMTdiMzYxY2RkNDlmOTUwNjU0NGY1NTk2ZDRmNTdlNTk"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vXip4",
+		  "publishedAt": "2024-05-14T08:49:34Z",
+		  "author": {
+		    "url": "https://github.com/jasonquache",
+		    "login": "jasonquache",
+		    "name": "Jason Quach",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+		    "databaseId": 59347744
+		  },
+		  "title": "[VPTAPPLE-653] - Multiview Bug Fix - Subtitles Persistence on Replacing Stream",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2584",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDVkZDhkNTQ5YmI1OTUwNGExNWZiOGMzM2FkYWVlYzI1NTUyMTgyYzQ",
+			  "committedDate": "2024-04-09T17:27:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGFjNGQxY2JmMjBlMjI0MTZiMDVhNjA1ODVkZTc1MGMxMzA2MjViMDM",
+			  "committedDate": "2024-04-10T12:45:07Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQxYTAwYmRiMTkzMjg2ZTMyYWQwNjk1NzNhODk5ZjQyODM5YjEyZGM",
+			  "committedDate": "2024-04-10T12:49:54Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGYzZTMwNTBiMWVkYjU3NTJhMzFhNGViMjdkY2I4MWZhMDU1YTVmZGU",
+			  "committedDate": "2024-04-10T13:39:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDcxNjVhM2Y1YjFjOTk2ZjkzMTk3NDFjYmI2ZjdlZDhjYjVmNjE5OTE",
+			  "committedDate": "2024-04-12T13:08:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDdkZTQ4M2M1YjMxMGI1ZDJhOTEyN2Y5NzI3NjJmMDE4M2U2NWYzZDk",
+			  "committedDate": "2024-04-12T13:08:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgxMGM3M2MwYWE4OGJkYmUwZmNiOTQ3OTliNWIwZDM3YmE1NDJhYTc",
+			  "committedDate": "2024-04-12T16:50:28Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGY5Yjg4ZDJlYmQ4Mzk1MWE1OGE5ZWY1NjVkMWExMjczY2I4OWU1YjE",
+			  "committedDate": "2024-04-15T13:34:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGFmYmNmMTcxMmM5ZjQwOWRmZGJjODNkYWM2ZDEzOGQ0NGM3MGYxNWM",
+			  "committedDate": "2024-04-16T12:55:56Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDFkZTliNmQ2MWRlM2UwYjdmYmY4MDM2OWM4OTllMmU1M2MwODcyY2M",
+			  "committedDate": "2024-04-16T15:58:35Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQ5OTdhZmNlNWJjZmE5MzRhYmQ0NTc2YmY2ODgzZmEwNDQxNTI2Y2M",
+			  "committedDate": "2024-04-16T16:17:03Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDEzYTQxNGFhYzhmYjQzNDZhOTAyMDBmNWQ0OTFjNjk2MWM0OTE0NmY",
+			  "committedDate": "2024-04-16T16:42:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQxMDQ3ZDY5Mjg0YmI5MjljYmJmNzQ3NDk4ZGViZjI5ZmY2NmFkYTE",
+			  "committedDate": "2024-04-16T16:50:27Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGExMTk2NzU5ZTE1Mjk3MTBmNzcwZWExMDU3OGEyYjU2NGYyMjIwNWE",
+			  "committedDate": "2024-04-17T08:52:00Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQyNDg5MzQwY2FkMGYwNDQwNzNkNWNkZTQ3ZTA3NzYzMzcyODcxN2M",
+			  "committedDate": "2024-04-17T11:12:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDc1MzUzZDc1MGQ1YTgwOWFhYzk3NDY0NTcyZDE4MzNjMGE2ODI3YjY",
+			  "committedDate": "2024-04-17T18:01:39Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRjOTczMjIyZWYyNjZiMmYyMzRhMDRjOWU2YmU3NmI1ZGU2YmQ5MzQ",
+			  "committedDate": "2024-04-17T18:02:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUxYjRhZjI4YjU1ZDdmYjgyYWExMTRkOTk5YzkwOGNjZmM3NjVlZmQ",
+			  "committedDate": "2024-04-17T19:22:56Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGMwYmVmZGU4ZGUwMGQ0NGY0MzQ5YTljZTA1MjRhMDhjNTQzNzA4YmI",
+			  "committedDate": "2024-04-17T19:46:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDFiYzMyZWI3NDU2ZDAzZGE1YTYzOTkyOWQyMTAxMzQyNmQ2MDlkODU",
+			  "committedDate": "2024-04-17T20:59:13Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDg5MjhlNGE5ZGYzNjc3OTY5MGUyYjA4ZmZkNjBmNjg5MzJiNmJkMWY",
+			  "committedDate": "2024-04-18T10:56:29Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDc4MzYwNjc0MTgyZTMxMGMzOWJlMTdkM2Q0YjQzMzFlOGE0ZmYwOTM",
+			  "committedDate": "2024-04-18T15:00:12Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGJlODNkYjg4Y2NkNDU4MjNmNWI3NDRlNzgxYmNkOTZmOGFmYTgyYzY",
+			  "committedDate": "2024-04-18T15:00:17Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUzZGFjMWE4ZjcwNzU5ZTQxMWEzOTRlOGY3NzY5NzIwZDZhZTIyNTE",
+			  "committedDate": "2024-04-18T15:10:20Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGE2YmNmMTVhMzY0NGEwYmIyZDk5ZTVmNzE3YjJiY2VlMDZhMTYxNDc",
+			  "committedDate": "2024-04-18T15:13:03Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGRhZWRkZmFjYWE1YzdkMjY0M2Y2MzYxMWUyMjQ3OGQ2NzExMjAwMzg",
+			  "committedDate": "2024-04-18T15:13:23Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDJhZjA2ZTRlM2VjZDc5NGZmOGYyODlkMjJmNzdjOTJjMDE5ZmEzMWE",
+			  "committedDate": "2024-04-18T15:22:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDE3YjlmOGI4OTc1YWYwZmY1NDFkNmM1YzA5Y2I3ZmU5MzE1OTY4YmU",
+			  "committedDate": "2024-04-18T15:22:24Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGJhZTgyMzJlMzY1YzBjNWU2Zjk2ZDhiZDA4YmY1YTViYzk4Zjg5ZWU",
+			  "committedDate": "2024-04-18T16:17:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGM0MWRlMjQxZWM3NDgxOTFiYzM1MDQ4MjlhN2IzZWNlNWRlZmZiZDM",
+			  "committedDate": "2024-04-18T18:17:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDlhNWNlZDQwN2E2ZGU2YzUyNWVjY2EzODIyZTI0OTQ3ZjhhNDY1M2M",
+			  "committedDate": "2024-04-18T18:25:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGE2OWYxNWM0ZTRhZjUxOTBlOGIwYWJlNTE0Mjc3NGY2MGI2YWY0MDM",
+			  "committedDate": "2024-04-18T18:41:18Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDNkNzc2NzJiN2UxNDExMDUxOTY4YjM5NTRhYTYyOWQ2OTI1NjllMTM",
+			  "committedDate": "2024-04-18T21:00:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRhNzQzNjA2OWM0MDM5MDUxZDYyZDBmZjE1NmZjMTA4YmU4ZDVkNzk",
+			  "committedDate": "2024-04-18T21:25:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI3NmVhM2E4NWU0MTgxNTc4NTQyYjA4ZDVhZDdmNTUyN2IyODhmM2I",
+			  "committedDate": "2024-04-18T21:29:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA0YmJkMjc4MzlkZmU2ZmZlM2ZjZWQyZGQ1NGU3MGQwMzFmNGM2NzA",
+			  "committedDate": "2024-04-18T22:25:19Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGI1NjZjOTM3MmEzMzhmYzQ1ODhkZDg0YzA0OWI0OTRiYWY5MGZiNzg",
+			  "committedDate": "2024-04-19T09:51:32Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDJkYTNjYTFiZmJjYTYzOGEzN2Y5MThmYWRkYmI0OTk5NmFjYzJkOWQ",
+			  "committedDate": "2024-04-19T12:40:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGU3ZmRkMDA0ZGE4NjAxNjQ5ZjgzZDhjMGQzYzg5MjdlNzhhZTM2MzA",
+			  "committedDate": "2024-04-19T16:26:39Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGMwMmVjZTFkNjA1ZWI5NTE5M2JjOWVlZWI0OTNmNGExZDVhMGFjOGI",
+			  "committedDate": "2024-04-19T21:52:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGY2NTQ5ZDczMGQ2ODA3NWU4MzY2MTU2YjllYjZiMzAzNDMwY2EyZWU",
+			  "committedDate": "2024-04-20T06:49:23Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNiMGQ0MWZmYzA2NTAxMzBiMzg0NzRjYjQ4ODhiZjc5NmI2MjFjYzA",
+			  "committedDate": "2024-04-20T09:40:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDUxZGU0ZTFjY2UyODE2NDJmNTVjM2I2YjA3YTljMDhiYjQ5ZmE0Yjk",
+			  "committedDate": "2024-04-20T09:51:01Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGVkNDc0ZmY5ODUyNzgzMDk3NzU2MGE1NTFkOWIwZDJmZTc4MWFlZDM",
+			  "committedDate": "2024-04-21T16:45:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDdjMDczYTZhMjg2MjAzZDM2NWM0OGI0NGEwZDEzM2E2MmIwNWE3YTk",
+			  "committedDate": "2024-04-21T17:09:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDViNmMzZTc1MDk5NjEwYWM4MjEzMTRkZWFiMjkxNmE4YjMxMTVlYzQ",
+			  "committedDate": "2024-04-21T17:14:49Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDc5MTBjZGNiMzA0MDg3MWVhN2UxYzA5YjYwNDhjMzI4ZDE4MGZjMzQ",
+			  "committedDate": "2024-04-21T17:28:13Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM3NmQ2ZTQwMzBlYjJhOTZmNWU4ZWJjZDg3MmI0YjZjNzU0ODFlYjc",
+			  "committedDate": "2024-04-22T10:51:09Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDMwNjk4YjM4ODA3NTAyNmU1NGRlNmEwYTM3YzIyOWUxOGNjMDlkZDQ",
+			  "committedDate": "2024-04-22T10:56:35Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGRiYmZiYTY0NTEwMmQ5ZDdmMDg1OGM0ZTQxMTNmMDRiMzI0NTE4M2Y",
+			  "committedDate": "2024-04-22T16:09:36Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGRiYWQ5MGM0MGRmMzI2NDlhN2Q5NWExMGJiNTgzMjQzNjcyMTZmZDY",
+			  "committedDate": "2024-04-22T17:06:41Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDg0ZTE0MDU4YTEwMmViZDkxNWEzZDI0OWNiYTVlNTZkNjI5NGQ3OTY",
+			  "committedDate": "2024-04-23T12:50:08Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRiNWFlMTQ5YTZmNGU5NmYzMjk0MmI4MGJmZDg3MjNiMTRhZWFkNzE",
+			  "committedDate": "2024-04-23T17:33:43Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM3ZTg3OWQwMGEyMzk5NzU0YTEzY2ZmOTVkMmYyMjA5ZWJlMzU4MGU",
+			  "committedDate": "2024-04-24T13:32:10Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDhlYzRmZmI5ZDJmMzU2ZDFkMGE5M2E1M2VlMzkwZjRhYTVhOWU0M2U",
+			  "committedDate": "2024-04-25T06:59:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA3ZDczMTZhZGY1YjYxMjNjNWViMmNlMjNlYmE1MmYwMjdhMTM5OTg",
+			  "committedDate": "2024-04-25T13:16:50Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGVhNTk5M2Q1ODc1NjBmNTc1NGZkZGNiMGEzZWVjYjc5Y2EwMTEwNGU",
+			  "committedDate": "2024-04-25T13:34:15Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA1YmQxMTk1NjliNmM1NTg1NzlmMGFmYTc1N2U3ODU0MWI5ZDBhOWE",
+			  "committedDate": "2024-04-25T13:35:58Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDMwOGYwZmYxMzA4NWZkZGU1ZmY4YTJlODFkOTlkMGVkMDg5ODY0ZDA",
+			  "committedDate": "2024-04-26T08:19:15Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGJlN2ExMjc5ZGExZjIxN2E3ZGY0ZWRhMWEwMzhlNWMyMzlmNTRiMmM",
+			  "committedDate": "2024-04-26T10:47:18Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDVmMjMzNjQwMWQ1NGI0ZWVmZjE5MTYwNjc3NmQ0ODhhMjFkMjFlNWE",
+			  "committedDate": "2024-04-26T10:48:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgxZDZhOWE1OTMxMTE0MTA2YzQxODZiMDVkNTRiYmMzNzVhOTI5MDA",
+			  "committedDate": "2024-04-29T14:12:36Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGY4NDZjOGI5OTJiOTM4OTFkYzhkYTI3MDY4OWM5ODhkODI0NDhhYjQ",
+			  "committedDate": "2024-04-29T15:02:50Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDU3ZmM1OWRmNDFiMDhjMDRjMjVlNmNhNzQ3NDg0Yjg4Y2RhNWI0NmY",
+			  "committedDate": "2024-04-29T15:19:55Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDcyOGQ3OGYwMTNiYjdlYTU5NjgxMzVjZGQ3M2MzOTkwYWU0ODJlMjA",
+			  "committedDate": "2024-04-30T10:55:11Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA2OWE0ZTIxMjE0ZjYxYzEwNWMyODY0ZTVhZjIyYmZkMjM2MTc4YmQ",
+			  "committedDate": "2024-05-07T10:35:28Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDA1MjM4YTY3MTIyNDMwNzFiYWQxOTA5MDliOWExNWY5NWI3ZDAyOGE",
+			  "committedDate": "2024-05-07T10:59:26Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNjYzNkYzk4MGIxNjViNjAxYmJlNDNkMzAxZmM5Yzc1MjJkZjA1NGU",
+			  "committedDate": "2024-05-07T13:12:25Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ4YTA0NWUyYzRhMGE3ODRjOWM0NmUyMmVhNjQzOGIyYTdmZmYxZjY",
+			  "committedDate": "2024-05-07T13:14:17Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgxZTFhNTY2M2ZhNzQ5ZmU5MmJiNzcxY2IwYjY2YjNkMmZmZDAyNGQ",
+			  "committedDate": "2024-05-07T14:30:48Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQ0YjQyMzQ2YjUwM2I1NjI0NDdmM2IyMDExNTVjNjNkZTIzNjhhMGE",
+			  "committedDate": "2024-05-07T14:31:44Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDY2NjBjZjdmMmE4NGI5ZGQ3NTFkZGVkY2VmZWZiZGZlZDZhMzdmY2Q",
+			  "committedDate": "2024-05-07T14:48:05Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDY5NzdkNzk2ZTlmN2I5YWJhM2QyMDljMTZjYmY5MzkxYzk5YjdjMmE",
+			  "committedDate": "2024-05-07T14:49:15Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDliMDZiYzRlZDE4MDAxYjdiOTM2ZTA3OTAxYzAxMThhZTJiMDQ0ZDM",
+			  "committedDate": "2024-05-07T14:49:34Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDM4ZDJkMjk5YzZmMjY5OGM3NzhkN2RlZWQyYzQwZWUxZWVlODVmZjg",
+			  "committedDate": "2024-05-07T14:52:29Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDEzZDY3MzAxN2M2ZjY5NDZmMzgwMWE5MDFmYWYxM2I0NmI3ZjIzOTc",
+			  "committedDate": "2024-05-07T16:20:24Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDdhNmY3NDdmMjlhYTczMmNjOWZlYmFhNTA4MzVjYjE3MDc0OTNlZjA",
+			  "committedDate": "2024-05-08T09:53:56Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGU3YzVjNzIzMjM3OGMxMTA1MmM4Y2EwMTc0YzMxYWM2NmJhZTRhYjA",
+			  "committedDate": "2024-05-08T14:31:06Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGM1NDcwYzg3NDBmOTI2YjUyZjBhYzczMjQ3NGE2YjIyYzE4ODU0N2Y",
+			  "committedDate": "2024-05-08T14:31:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDAxYzNlZDY3NmQzZTU0MjBiZmVlNmNhMDQ3MmVmZmNmNDI5MzgxYTc",
+			  "committedDate": "2024-05-08T14:32:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGUzY2NiNjQwZDZjZTM3MmY2ZTM1YTRkNDYyYjJiN2Y1ZTUwMzZlYzY",
+			  "committedDate": "2024-05-08T16:30:35Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDViODA4M2M4YzczMTMyODMyYTRhMzMyMjA0YjE1MGIzM2Q0OWQxZDA",
+			  "committedDate": "2024-05-08T16:47:17Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDYxNmZkYTYyMDIzNGIwZTc3NjVmNzMwNWZkNzM2ZWEwYTliNmQwNTA",
+			  "committedDate": "2024-05-08T17:31:18Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDY3ZjRmM2Y5NTZlNjAyNWE0MDE0MTY4MzBjMjJhNDcxMTRiYjM5OGY",
+			  "committedDate": "2024-05-08T21:55:40Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGE0ZDU4MWI3ZjFhYWE4MmE0NWVhMTNkMzIwNDQzYmIxNWYxZTIwOGM",
+			  "committedDate": "2024-05-08T21:56:44Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGEyODg4NjdkZWQ2ZmJmM2RlMTA0MjQ3MWZkNjJkNjY4YThjYTJkN2M",
+			  "committedDate": "2024-05-10T12:54:00Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQ2ZmM3OWQ3MzJmNTg1ZThhOGRiY2E3MmYxNmFjMjU4MjZmMmQ4NjI",
+			  "committedDate": "2024-05-10T16:43:25Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGZlNDVlYjA3ZmY1ZDc0MThjMjk1ZmI3MWM3OGRiMjg0OGY0YWY3YjA",
+			  "committedDate": "2024-05-10T19:20:47Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgwY2QwYWUyYjUwZTA1YWI0MDhiYThmYzY4Yzc4NTBjNGEwZjAyMWE",
+			  "committedDate": "2024-05-13T13:00:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDQxOGU2OGI0YzhhZjU5YWU5NjY1MDdjOGE3NTgzYjM1YTQwNThhNmI",
+			  "committedDate": "2024-05-13T14:04:18Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNjOTYzMmVmOWIwYmVlMDgwZGM2YmVmMzliMDdjZjcyMGUyMDBhYmU",
+			  "committedDate": "2024-05-13T14:04:30Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGMyYTc2NjAwNjM1NDk1MmRhZTZhYTYwZDgxNTYzNTAzZDFiZWQyYmE",
+			  "committedDate": "2024-05-13T14:06:02Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGUyNjQ3MTZkZTE1ODdiMDA5YmFhMDE3ZGE0MzI0YmNlOThmYjFjY2U",
+			  "committedDate": "2024-05-13T14:06:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGVkZjBmYmNlYmJhMTcyNzk2ZTMxOGQ1NWQ0M2VjODFmY2YxOTFmYTc",
+			  "committedDate": "2024-05-13T15:52:52Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNkYmJlYWIyM2E0YTI0MWQyYjM0OWM5NTYxMTkxMTI5MTBhNTI0ZGY",
+			  "committedDate": "2024-05-13T15:55:48Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGNjYjFjZDAwZDY4NGU2MjgzODg4NTViZDk5YjM0MGE4Zjg5YTg2ZTE",
+			  "committedDate": "2024-05-13T16:38:17Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDgyZTAyNzA2MTkwOWM2MjZjMjg0YjdiN2QwMjVmZjI5MDM3ZWYxZjg",
+			  "committedDate": "2024-05-13T16:53:01Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDkxN2ZkYmVmMmJiNzk5YjUwN2IxN2NlYWZhNjYwMmM2Y2I3ZTFiMzA",
+			  "committedDate": "2024-05-14T08:47:41Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDRkNjM3NWQ5Y2VmYmMyZTlkYjNjYTYwMTBhMTljNTE0YWE5ZWIxYmE",
+			  "committedDate": "2024-05-14T08:47:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDU4ZGUwNWVlZTBjNmE0NTk1ZDRhMjUxZGQxNGQ2ZDU4MDYyNDI2OTQ",
+			  "committedDate": "2024-05-14T12:49:13Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56eHm4",
+			"submittedAt": "2024-05-14T08:51:10Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T12:49:13Z",
+			  "id": "C_kwDOCishDNoAKDU4ZGUwNWVlZTBjNmE0NTk1ZDRhMjUxZGQxNGQ2ZDU4MDYyNDI2OTQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56eLET",
+			"submittedAt": "2024-05-14T08:56:28Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T12:49:13Z",
+			  "id": "C_kwDOCishDNoAKDU4ZGUwNWVlZTBjNmE0NTk1ZDRhMjUxZGQxNGQ2ZDU4MDYyNDI2OTQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/gpe08",
+			  "login": "gpe08",
+			  "name": "Gonzalo Perez",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+			  "databaseId": 16305255
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gJrJ",
+			"submittedAt": "2024-05-14T12:41:45Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T12:49:13Z",
+			  "id": "C_kwDOCishDNoAKDU4ZGUwNWVlZTBjNmE0NTk1ZDRhMjUxZGQxNGQ2ZDU4MDYyNDI2OTQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/eduardoperez-nbcuni",
+			  "login": "eduardoperez-nbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+			  "databaseId": 55159287
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gWNO",
+			"submittedAt": "2024-05-14T13:03:04Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T12:49:13Z",
+			  "id": "C_kwDOCishDNoAKDU4ZGUwNWVlZTBjNmE0NTk1ZDRhMjUxZGQxNGQ2ZDU4MDYyNDI2OTQ"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vXtdX",
+		  "publishedAt": "2024-05-14T09:12:56Z",
+		  "author": {
+		    "url": "https://github.com/gpe08",
+		    "login": "gpe08",
+		    "name": "Gonzalo Perez",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+		    "databaseId": 16305255
+		  },
+		  "title": "[VPTAPPLE-651] Daily Automation Build",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2585",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGZiZmYxMjk0MDU2NjNiMzg4NGNlMzgwNjYyZjA2YzExZDcwYzU1ZDk",
+			  "committedDate": "2024-05-13T17:10:19Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGEyYTY3M2Q5MDNhNDg4M2M1N2M0MzRjOTUxM2JjYWUxZWIyYzhmYTE",
+			  "committedDate": "2024-05-14T09:11:53Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDkxZDAxNzZlYzY1NDcxMTcyNDNlOGFkMzk0N2E5YTIwMTdjYzEzYzc",
+			  "committedDate": "2024-05-14T09:23:28Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGVkNTMzYWRiNWQ2ZTRlNzIzMzFiNDU0MGNmYjBiNjA1MjI4MjlkZGM",
+			  "committedDate": "2024-05-14T13:59:40Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56fRmi",
+			"submittedAt": "2024-05-14T11:04:42Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T13:59:40Z",
+			  "id": "C_kwDOCishDNoAKGVkNTMzYWRiNWQ2ZTRlNzIzMzFiNDU0MGNmYjBiNjA1MjI4MjlkZGM"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gVfr",
+			"submittedAt": "2024-05-14T13:01:51Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T13:59:40Z",
+			  "id": "C_kwDOCishDNoAKGVkNTMzYWRiNWQ2ZTRlNzIzMzFiNDU0MGNmYjBiNjA1MjI4MjlkZGM"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56g9JL",
+			"submittedAt": "2024-05-14T13:55:49Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-14T13:59:40Z",
+			  "id": "C_kwDOCishDNoAKGVkNTMzYWRiNWQ2ZTRlNzIzMzFiNDU0MGNmYjBiNjA1MjI4MjlkZGM"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/gt-sky",
+			  "login": "gt-sky",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/131902882?v=4",
+			  "databaseId": 131902882
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vq16O",
+		  "publishedAt": "2024-05-16T13:41:02Z",
+		  "author": {
+		    "url": "https://github.com/MihaiCojocar",
+		    "login": "MihaiCojocar",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/75254737?u=318125e9499e1c5aee8e135b926e28a0439a4802&v=4",
+		    "databaseId": 75254737
+		  },
+		  "title": "💥 [VPTAPPLE-588] Hide Multiview APIs behind @_spi.",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2590",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDZlZjgxMzJlOTMwYzdkMmZjZjJiMWJiMzdkMTVjNjVmYTU5Mzg4ZTI",
+			  "committedDate": "2024-05-16T12:47:42Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDk2OGMxZThhZTUxODE0ZDM4OGRhMDAxMDQ4Mjc2ZmVjOTY2OTJlM2M",
+			  "committedDate": "2024-05-16T12:52:06Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQ1MTk1ODlhZDc3NmU5OWJmNjc2NGM4NDIxMDU3ZjI2ZjA0MzBjNDg",
+			  "committedDate": "2024-05-16T13:23:16Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDBkYzExZWM0NjRkOWQ0YjkxZWE2MWEzZWYxMDljNGU5NjE3YzlkYzY",
+			  "committedDate": "2024-05-16T13:43:28Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM561tM_",
+			"submittedAt": "2024-05-16T14:10:56Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-16T13:43:28Z",
+			  "id": "C_kwDOCishDNoAKDBkYzExZWM0NjRkOWQ0YjkxZWE2MWEzZWYxMDljNGU5NjE3YzlkYzY"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM561xF6",
+			"submittedAt": "2024-05-16T14:16:38Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-16T13:43:28Z",
+			  "id": "C_kwDOCishDNoAKDBkYzExZWM0NjRkOWQ0YjkxZWE2MWEzZWYxMDljNGU5NjE3YzlkYzY"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vwCGa",
+		  "publishedAt": "2024-05-17T06:57:08Z",
+		  "author": {
+		    "url": "https://github.com/MKW11",
+		    "login": "MKW11",
+		    "name": "Mateusz Kosikowski, PhD",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+		    "databaseId": 89518723
+		  },
+		  "title": "VPTAPPLE-668 Reducing number of threads to fix performance issues on appleTV",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2592",
+		  "commits": {
+		    "nodes": [
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGZiZjMxNGYwYmUzYmM5N2ZmZWE5Y2Q1N2M2ZWJiZTZjYzc4MDY5YTY",
+			  "committedDate": "2024-05-17T06:53:20Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGQzYWFhOGQ5YmMzMjE5MmUzYWJhODRiMjFiZWMyNzc0ZjNiNDA3ZjA",
+			  "committedDate": "2024-05-17T06:54:36Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGY3YTYyMjg0YzFjZWU5YmU2YTFjMTg3MTMyY2RiMzhiOTExNDVkOGU",
+			  "committedDate": "2024-05-17T07:29:57Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKGUxYjU5OWQ1ODMyMWQxM2EzMmY0MjEyNTQ1MTBhNGMxNzdhNzUyZDM",
+			  "committedDate": "2024-05-17T07:34:46Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDZkYmZjYzFlMWIzMGU5ZDYwMTdmYTAwMDAwNDc3NDEwNjE0MmMzMjM",
+			  "committedDate": "2024-05-17T07:34:49Z"
+			}
+		      },
+		      {
+			"commit": {
+			  "id": "C_kwDOCishDNoAKDI3ODgzODA4OTQxNWFiNmU5OTA0OTY1YWU1ZmY3NjMyMmZkNGRmNDA",
+			  "committedDate": "2024-05-17T09:09:54Z"
+			}
+		      }
+		    ]
+		  },
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM568Qpm",
+			"submittedAt": "2024-05-17T08:10:22Z",
+			"state": "DISMISSED",
+			"commit": {
+			  "committedDate": "2024-05-17T07:34:49Z",
+			  "id": "C_kwDOCishDNoAKDZkYmZjYzFlMWIzMGU5ZDYwMTdmYTAwMDAwNDc3NDEwNjE0MmMzMjM"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/MihaiCojocar",
+			  "login": "MihaiCojocar",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/75254737?u=318125e9499e1c5aee8e135b926e28a0439a4802&v=4",
+			  "databaseId": 75254737
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM568p0P",
+			"submittedAt": "2024-05-17T09:04:59Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-17T07:34:49Z",
+			  "id": "C_kwDOCishDNoAKDZkYmZjYzFlMWIzMGU5ZDYwMTdmYTAwMDAwNDc3NDEwNjE0MmMzMjM"
+			},
+			"comments": {
+			  "totalCount": 3
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM568upz",
+			"submittedAt": "2024-05-17T09:06:54Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-17T07:34:49Z",
+			  "id": "C_kwDOCishDNoAKDZkYmZjYzFlMWIzMGU5ZDYwMTdmYTAwMDAwNDc3NDEwNjE0MmMzMjM"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM568vf9",
+			"submittedAt": "2024-05-17T09:08:41Z",
+			"state": "COMMENTED",
+			"commit": {
+			  "committedDate": "2024-05-17T07:34:49Z",
+			  "id": "C_kwDOCishDNoAKDZkYmZjYzFlMWIzMGU5ZDYwMTdmYTAwMDAwNDc3NDEwNjE0MmMzMjM"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM568zjj",
+			"submittedAt": "2024-05-17T09:17:20Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-17T09:09:54Z",
+			  "id": "C_kwDOCishDNoAKDI3ODgzODA4OTQxNWFiNmU5OTA0OTY1YWU1ZmY3NjMyMmZkNGRmNDA"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM569x0e",
+			"submittedAt": "2024-05-17T10:59:20Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-17T09:09:54Z",
+			  "id": "C_kwDOCishDNoAKDI3ODgzODA4OTQxNWFiNmU5OTA0OTY1YWU1ZmY3NjMyMmZkNGRmNDA"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MihaiCojocar",
+			  "login": "MihaiCojocar",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/75254737?u=318125e9499e1c5aee8e135b926e28a0439a4802&v=4",
+			  "databaseId": 75254737
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56_QKI",
+			"submittedAt": "2024-05-17T13:18:03Z",
+			"state": "APPROVED",
+			"commit": {
+			  "committedDate": "2024-05-17T09:09:54Z",
+			  "id": "C_kwDOCishDNoAKDI3ODgzODA4OTQxNWFiNmU5OTA0OTY1YWU1ZmY3NjMyMmZkNGRmNDA"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		}
+	      ]
+	    }
+	  }
+	}
+      }

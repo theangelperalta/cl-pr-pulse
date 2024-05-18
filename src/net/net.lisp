@@ -8,4 +8,9 @@
 (defun http-request-with-json-decoding (url)
   "Makes an http request and return content-type as json"
   (with-json-decoding ()
-      (drakma:http-request url)))
+    #+(or)
+    (drakma:http-request url)
+    (example-json)))
+
+(defun example-json ()
+  (uiop:read-file-string "/Users/AngelCortez/Developer/cl/cl-pr-pulse/example-pr.json"))
