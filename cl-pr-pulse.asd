@@ -10,10 +10,7 @@
   :version "0.0.1"
   :pathname "src"
   :serial t
-  :depends-on (#:util
-               #:net
-               #:model
-               #:decode)
+  :depends-on (#:interactor)
   :components (
                (:file "main")))
 

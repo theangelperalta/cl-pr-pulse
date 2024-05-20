@@ -1,0 +1,909 @@
+{
+	"data": {
+	  "repository": {
+	    "pullRequests": {
+	      "nodes": [
+		{
+		  "id": "PR_kwDOCishDM5uerCb",
+		  "publishedAt": "2024-05-03T14:20:22Z",
+		  "author": {
+		    "url": "https://github.com/seilerhnbcuni",
+		    "login": "seilerhnbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+		    "databaseId": 80717353
+		  },
+		  "title": "[VPTAPPLE-447] Updated Nielsen DTVR Metadata",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2565",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56XPXA",
+			"submittedAt": "2024-05-13T14:38:45Z",
+			"commit": {
+			  "committedDate": "2024-05-07T13:21:04Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5ue7TT",
+		  "publishedAt": "2024-05-03T14:56:16Z",
+		  "author": {
+		    "url": "https://github.com/seilerhnbcuni",
+		    "login": "seilerhnbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+		    "databaseId": 80717353
+		  },
+		  "title": "[VPTAPPLE-156] Added RemoteConfigurationEndpoints to SwiftUI App",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2566",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56gnYY",
+			"submittedAt": "2024-05-14T13:28:14Z",
+			"commit": {
+			  "committedDate": "2024-05-07T13:20:40Z"
+			},
+			"comments": {
+			  "totalCount": 3
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gwVo",
+			"submittedAt": "2024-05-14T13:36:37Z",
+			"commit": {
+			  "committedDate": "2024-05-07T13:20:40Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56g0PV",
+			"submittedAt": "2024-05-14T13:42:39Z",
+			"commit": {
+			  "committedDate": "2024-05-07T13:20:40Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56hK1u",
+			"submittedAt": "2024-05-14T14:19:27Z",
+			"commit": {
+			  "committedDate": "2024-05-14T13:42:03Z"
+			},
+			"comments": {
+			  "totalCount": 2
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56itvw",
+			"submittedAt": "2024-05-14T16:41:26Z",
+			"commit": {
+			  "committedDate": "2024-05-14T15:10:55Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5ugYcj",
+		  "publishedAt": "2024-05-03T19:24:11Z",
+		  "author": {
+		    "url": "https://github.com/eduardoperez-nbcuni",
+		    "login": "eduardoperez-nbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+		    "databaseId": 55159287
+		  },
+		  "title": "[VPTAPPLE-502] OneApp Ocellus - Differentiating between TVE apps",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2568",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM55pHLA",
+			"submittedAt": "2024-05-06T13:44:08Z",
+			"commit": {
+			  "committedDate": "2024-05-03T21:06:19Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM55yG4Y",
+			"submittedAt": "2024-05-07T13:22:32Z",
+			"commit": {
+			  "committedDate": "2024-05-06T21:11:28Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM551YiR",
+			"submittedAt": "2024-05-07T19:48:53Z",
+			"commit": {
+			  "committedDate": "2024-05-15T19:03:36Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56guXF",
+			"submittedAt": "2024-05-14T13:33:31Z",
+			"commit": {
+			  "committedDate": "2024-05-15T19:03:36Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/rcharlton-sky",
+			  "login": "rcharlton-sky",
+			  "name": "Robin Charlton",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+			  "databaseId": 121031752
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5uq6ce",
+		  "publishedAt": "2024-05-06T18:47:22Z",
+		  "author": {
+		    "url": "https://github.com/seilerhnbcuni",
+		    "login": "seilerhnbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+		    "databaseId": 80717353
+		  },
+		  "title": "[VPTAPPLE-591] Updated RemoteConfigService SearchPathDirectory",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2572",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM55zvCS",
+			"submittedAt": "2024-05-07T16:02:13Z",
+			"commit": {
+			  "committedDate": "2024-05-10T15:07:16Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MihaiCojocar",
+			  "login": "MihaiCojocar",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/75254737?u=318125e9499e1c5aee8e135b926e28a0439a4802&v=4",
+			  "databaseId": 75254737
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56NNfO",
+			"submittedAt": "2024-05-10T15:07:02Z",
+			"commit": {
+			  "committedDate": "2024-05-10T15:07:16Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/theangelperalta",
+			  "login": "theangelperalta",
+			  "name": "Angel Peralta",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+			  "databaseId": 12777745
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56Nuhl",
+			"submittedAt": "2024-05-10T16:22:25Z",
+			"commit": {
+			  "committedDate": "2024-05-10T15:07:16Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WLzo",
+			"submittedAt": "2024-05-13T13:04:23Z",
+			"commit": {
+			  "committedDate": "2024-05-10T15:07:16Z"
+			},
+			"comments": {
+			  "totalCount": 2
+			},
+			"author": {
+			  "url": "https://github.com/gpe08",
+			  "login": "gpe08",
+			  "name": "Gonzalo Perez",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+			  "databaseId": 16305255
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WQmf",
+			"submittedAt": "2024-05-13T13:09:55Z",
+			"commit": {
+			  "committedDate": "2024-05-10T15:07:16Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56XUjY",
+			"submittedAt": "2024-05-13T14:47:10Z",
+			"commit": {
+			  "committedDate": "2024-05-13T19:02:11Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/gpe08",
+			  "login": "gpe08",
+			  "name": "Gonzalo Perez",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+			  "databaseId": 16305255
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56ZiFF",
+			"submittedAt": "2024-05-13T19:02:23Z",
+			"commit": {
+			  "committedDate": "2024-05-13T19:02:11Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/theangelperalta",
+			  "login": "theangelperalta",
+			  "name": "Angel Peralta",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/12777745?u=bc7a8b43135dcdefa526adb8a5e398acf1076794&v=4",
+			  "databaseId": 12777745
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vF3MW",
+		  "publishedAt": "2024-05-10T11:59:20Z",
+		  "author": {
+		    "url": "https://github.com/sumuhans",
+		    "login": "sumuhans",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/39094976?v=4",
+		    "databaseId": 39094976
+		  },
+		  "title": "[VPTAPPLE-602] - Multiview error handling",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2578",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56g2je",
+			"submittedAt": "2024-05-14T13:46:17Z",
+			"commit": {
+			  "committedDate": "2024-05-14T13:36:06Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56g2rO",
+			"submittedAt": "2024-05-14T13:46:28Z",
+			"commit": {
+			  "committedDate": "2024-05-14T13:36:06Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56hjHt",
+			"submittedAt": "2024-05-14T14:39:58Z",
+			"commit": {
+			  "committedDate": "2024-05-14T13:36:06Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/sumuhans",
+			  "login": "sumuhans",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/39094976?v=4",
+			  "databaseId": 39094976
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56iuqj",
+			"submittedAt": "2024-05-14T16:45:31Z",
+			"commit": {
+			  "committedDate": "2024-05-14T14:39:14Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56jQNn",
+			"submittedAt": "2024-05-14T17:52:22Z",
+			"commit": {
+			  "committedDate": "2024-05-14T14:39:14Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56q9RM",
+			"submittedAt": "2024-05-15T13:46:22Z",
+			"commit": {
+			  "committedDate": "2024-05-14T14:39:14Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/sumuhans",
+			  "login": "sumuhans",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/39094976?v=4",
+			  "databaseId": 39094976
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56rH38",
+			"submittedAt": "2024-05-15T13:59:38Z",
+			"commit": {
+			  "committedDate": "2024-05-15T14:59:03Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56rv9Q",
+			"submittedAt": "2024-05-15T14:59:43Z",
+			"commit": {
+			  "committedDate": "2024-05-14T14:39:14Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56rwND",
+			"submittedAt": "2024-05-15T15:00:06Z",
+			"commit": {
+			  "committedDate": "2024-05-15T14:59:03Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56r5n-",
+			"submittedAt": "2024-05-15T15:15:30Z",
+			"commit": {
+			  "committedDate": "2024-05-15T14:59:03Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vHaHV",
+		  "publishedAt": "2024-05-10T16:31:34Z",
+		  "author": {
+		    "url": "https://github.com/Hamza-a-r",
+		    "login": "Hamza-a-r",
+		    "name": "Hamza",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/117295870?u=fa49f2363732418caf0950943461b2edc7e2376e&v=4",
+		    "databaseId": 117295870
+		  },
+		  "title": "[VPT-594] Support Seek To Date Swift UI Ref App",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2579",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56U_wK",
+			"submittedAt": "2024-05-13T10:48:03Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 6
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56VP-U",
+			"submittedAt": "2024-05-13T11:13:17Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/gpe08",
+			  "login": "gpe08",
+			  "name": "Gonzalo Perez",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+			  "databaseId": 16305255
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WTOJ",
+			"submittedAt": "2024-05-13T13:13:29Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/Hamza-a-r",
+			  "login": "Hamza-a-r",
+			  "name": "Hamza",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/117295870?u=fa49f2363732418caf0950943461b2edc7e2376e&v=4",
+			  "databaseId": 117295870
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WWhC",
+			"submittedAt": "2024-05-13T13:18:11Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/Hamza-a-r",
+			  "login": "Hamza-a-r",
+			  "name": "Hamza",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/117295870?u=fa49f2363732418caf0950943461b2edc7e2376e&v=4",
+			  "databaseId": 117295870
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WhUY",
+			"submittedAt": "2024-05-13T13:33:19Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/gpe08",
+			  "login": "gpe08",
+			  "name": "Gonzalo Perez",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+			  "databaseId": 16305255
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56WpOc",
+			"submittedAt": "2024-05-13T13:45:18Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/aditya-bommegowda",
+			  "login": "aditya-bommegowda",
+			  "name": "Aditya Bommegowda",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/29067644?v=4",
+			  "databaseId": 29067644
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56XJTC",
+			"submittedAt": "2024-05-13T14:29:15Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/Hamza-a-r",
+			  "login": "Hamza-a-r",
+			  "name": "Hamza",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/117295870?u=fa49f2363732418caf0950943461b2edc7e2376e&v=4",
+			  "databaseId": 117295870
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56Xebw",
+			"submittedAt": "2024-05-13T15:03:39Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/Hamza-a-r",
+			  "login": "Hamza-a-r",
+			  "name": "Hamza",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/117295870?u=fa49f2363732418caf0950943461b2edc7e2376e&v=4",
+			  "databaseId": 117295870
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56X1yn",
+			"submittedAt": "2024-05-13T15:44:10Z",
+			"commit": {
+			  "committedDate": "2024-05-13T10:29:43Z"
+			},
+			"comments": {
+			  "totalCount": 1
+			},
+			"author": {
+			  "url": "https://github.com/aditya-bommegowda",
+			  "login": "aditya-bommegowda",
+			  "name": "Aditya Bommegowda",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/29067644?v=4",
+			  "databaseId": 29067644
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56YAsL",
+			"submittedAt": "2024-05-13T16:05:18Z",
+			"commit": {
+			  "committedDate": "2024-05-13T15:47:36Z"
+			},
+			"comments": {
+			  "totalCount": 4
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gLbE",
+			"submittedAt": "2024-05-14T12:44:45Z",
+			"commit": {
+			  "committedDate": "2024-05-14T16:28:30Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gYay",
+			"submittedAt": "2024-05-14T13:05:00Z",
+			"commit": {
+			  "committedDate": "2024-05-14T16:28:30Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vYyMj",
+		  "publishedAt": "2024-05-14T11:43:25Z",
+		  "author": {
+		    "url": "https://github.com/rcharlton-sky",
+		    "login": "rcharlton-sky",
+		    "name": "Robin Charlton",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+		    "databaseId": 121031752
+		  },
+		  "title": "[VPTAPPLE-641] Fix: AirPlay button disappears",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2586",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56gHCT",
+			"submittedAt": "2024-05-14T12:36:58Z",
+			"commit": {
+			  "committedDate": "2024-05-15T19:07:52Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/jasonquache",
+			  "login": "jasonquache",
+			  "name": "Jason Quach",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+			  "databaseId": 59347744
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56gVHE",
+			"submittedAt": "2024-05-14T13:01:11Z",
+			"commit": {
+			  "committedDate": "2024-05-15T19:07:52Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      },
+		      {
+			"id": "PRR_kwDOCishDM56ruw4",
+			"submittedAt": "2024-05-15T14:57:51Z",
+			"commit": {
+			  "committedDate": "2024-05-15T19:07:52Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/MKW11",
+			  "login": "MKW11",
+			  "name": "Mateusz Kosikowski, PhD",
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/89518723?u=ef2c89900343488c6276b784c31999fd0115d80c&v=4",
+			  "databaseId": 89518723
+			}
+		      }
+		    ]
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vjYSO",
+		  "publishedAt": "2024-05-15T15:52:00Z",
+		  "author": {
+		    "url": "https://github.com/gpe08",
+		    "login": "gpe08",
+		    "name": "Gonzalo Perez",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+		    "databaseId": 16305255
+		  },
+		  "title": "[VPTAPPLE-601] Fix native ads race condition",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2587",
+		  "reviews": {
+		    "nodes": []
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vjyFo",
+		  "publishedAt": "2024-05-15T16:54:34Z",
+		  "author": {
+		    "url": "https://github.com/rcheema-sky",
+		    "login": "rcheema-sky",
+		    "name": "Randeep Cheema",
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/80718099?v=4",
+		    "databaseId": 80718099
+		  },
+		  "title": "v57.0.0 Release",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2588",
+		  "reviews": {
+		    "nodes": []
+		  }
+		},
+		{
+		  "id": "PR_kwDOCishDM5vkNTI",
+		  "publishedAt": "2024-05-15T18:10:09Z",
+		  "author": {
+		    "url": "https://github.com/eduardoperez-nbcuni",
+		    "login": "eduardoperez-nbcuni",
+		    "name": null,
+		    "avatarUrl": "https://avatars.githubusercontent.com/u/55159287?u=241573aeb5f7b7b5c868309af0b7cf4e06a8f090&v=4",
+		    "databaseId": 55159287
+		  },
+		  "title": "[VPTAPPLE-663] CNBC - Notification of Subtitle Track Change",
+		  "url": "https://github.com/sky-uk/core-video-sdk-ios/pull/2589",
+		  "reviews": {
+		    "nodes": [
+		      {
+			"id": "PRR_kwDOCishDM56tUms",
+			"submittedAt": "2024-05-15T18:11:40Z",
+			"commit": {
+			  "committedDate": "2024-05-15T17:34:11Z"
+			},
+			"comments": {
+			  "totalCount": 0
+			},
+			"author": {
+			  "url": "https://github.com/seilerhnbcuni",
+			  "login": "seilerhnbcuni",
+			  "name": null,
+			  "avatarUrl": "https://avatars.githubusercontent.com/u/80717353?v=4",
+			  "databaseId": 80717353
+			}
+		      }
+		    ]
+		  }
+		}
+	      ]
+	    }
+	  }
+	}
+      }

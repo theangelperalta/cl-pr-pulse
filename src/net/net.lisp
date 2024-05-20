@@ -13,4 +13,4 @@
     (example-json)))
 
 (defun example-json ()
-  (uiop:read-file-string "/Users/AngelCortez/Developer/cl/cl-pr-pulse/example-pr.json"))
+  (uiop:read-file-string (concatenate 'string (or (uiop:getenv "CL_PROJECTS_PATH") "~/Developer/cl") "/cl-pr-pulse/example-pr.json")))

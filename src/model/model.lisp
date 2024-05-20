@@ -2,6 +2,7 @@
 
 (defstruct user
   id
+  name
   url
   login
   avatar-url)
@@ -17,6 +18,7 @@
 (defstruct pull-request
   id
   title
+  url
   published-at
   author
   reviews)

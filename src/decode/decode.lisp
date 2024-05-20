@@ -9,12 +9,18 @@
 (defun decode-commits-pull-request (pull-request)
   (mapcar (lambda (current-commit) (assoc-path current-commit '(:commit))) (assoc-path pull-request '(:commits :nodes))))
 
-(defun decode-user ())
+(defun decode-user (user)
+  (let* ((id (assoc-path user '(:database-id)))
+         (name (assoc-path user '(:name)))
+         (url (assoc-path user '(:url)))
+         (login (assoc-path user '(:login)))
+         (avatar-url (assoc-path user '(:avatar-url))))
+    (model:make-user :id id :name name :url url :login login :avatar-url avatar-url)))
 
 (defun decode-review (pull-request data)
   (let* ((id (assoc-path data '(:id)))
-         (author (assoc-path data '(:author)))
-         (is-own-pull (equalp (assoc-path author '(:login)) (assoc-path pull-request '(:author-login))))
+         (author (decode-user (assoc-path data '(:author))))
+         (is-own-pull (equalp (model::user-login author) (assoc-path pull-request '(:author-login))))
          (submitted-at (local-time:parse-timestring (assoc-path data '(:submitted-at))))
          ;; (commit-date (local-time:parse-timestring (assoc-path data '(:commit :committed-date))))
          (commit-date (commit-date-before-pr-review submitted-at (decode-commits-pull-request pull-request)))
@@ -24,7 +30,7 @@
     (model:make-review :id id :author author :is-own-pull is-own-pull :submitted-at submitted-at :comment-count comment-count :time-to-review-secs time-to-review-secs)))
 
 (defun decode-pull-requests (data)
-  (mapcar (lambda (pull-request) (model:make-pull-request :id (assoc-path pull-request '(:id)) :title (assoc-path pull-request '(:title)) :published-at (assoc-path pull-request '(:published-at)) :author (assoc-path pull-request '(:author)) :reviews (mapcar #'(lambda (data) (decode-review pull-request data)) (assoc-path pull-request '(:reviews :nodes))))) (cdr (cadadr (cadar data)))))
+  (mapcar (lambda (pull-request) (model:make-pull-request :id (assoc-path pull-request '(:id)) :title (assoc-path pull-request '(:title)) :url (assoc-path pull-request '(:url)) :published-at (local-time:parse-timestring (assoc-path pull-request '(:published-at))) :author (assoc-path pull-request '(:author)) :reviews (mapcar #'(lambda (data) (decode-review pull-request data)) (assoc-path pull-request '(:reviews :nodes))))) (cdr (cadadr (cadar data)))))
 
 (defun decode-stats (data)
   (decode-pull-requests data))
