@@ -11,6 +11,8 @@
 
 ;; Team 1 - US
 ;; Team 2 - EU
+;;
+(defconstant +CELL-SMALL-WIDTH+ 20)
 
 (defun collect-stats (url team-1 team-2 non-team)
   (let* ((non-team (decode:decode-team-members (net:http-request-with-json-decoding non-team)))
@@ -18,21 +20,25 @@
          (team-1 (diff-team-members (diff-team-members (decode:decode-team-members (net:http-request-with-json-decoding team-1)) non-team) team-2))
          (github-stats (parse-pull-request-reviews (decode:decode-stats (net:http-request-with-json-decoding url)) team-1 team-2))
          (list-of-github-stats (sort (hash-table-values github-stats) (lambda (lhs rhs) (> (list-length (author-review-stats-reviews lhs)) (list-length (author-review-stats-reviews rhs)))))))
+    (progn
+    (format t "|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~%" 25 "Team Memeber" +CELL-SMALL-WIDTH+ "# Reviews" +CELL-SMALL-WIDTH+ "Median TTR" +CELL-SMALL-WIDTH+ "Average TTR" +CELL-SMALL-WIDTH+ "Median TTR U.S" +CELL-SMALL-WIDTH+ "Average TTR U.S" +CELL-SMALL-WIDTH+ "Median TTR E.U." +CELL-SMALL-WIDTH+ "Average TTR E.U." +CELL-SMALL-WIDTH+ "% U.S. Reviews" +CELL-SMALL-WIDTH+ "% E.U. Reviews")
     (loop for value in list-of-github-stats
-          do (let ((review-count (list-length (author-review-stats-reviews value))))
-               (format t "~S: #Reviews: ~D, Median TTR: ~A, Average TTR ~A, % U.S. Reviews ~,2F %, E.U. Reviews ~,2F %~%" (or (model::user-name (author-review-stats-author value)) (model::user-login (author-review-stats-author value))) review-count (median-time-to-review review-count value) (average-time-to-review review-count value) (* (/ (author-review-stats-num-us-reviews value) review-count) 100.0) (* (/ (author-review-stats-num-eu-reviews value) review-count) 100.0))))))
+          do (let* ((review-count (list-length (author-review-stats-reviews value)))
+                    (reviews-us (remove-if-not (lambda (review) (remove nil (mapcar (lambda (team-member) (equalp (model::user-id (model::review-pull-request-author review)) (model::user-id team-member))) team-1))) (author-review-stats-reviews value)))
+                    (reviews-eu (remove-if-not (lambda (review) (remove nil (mapcar (lambda (team-member) (equalp (model::user-id (model::review-pull-request-author review)) (model::user-id team-member))) team-2))) (author-review-stats-reviews value))))
+               (format t "|~vA|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~,2F~>|~v:@<~,2F~>|~%"  25 (or (model::user-name (author-review-stats-author value)) (model::user-login (author-review-stats-author value))) +CELL-SMALL-WIDTH+ review-count +CELL-SMALL-WIDTH+ (median-time-to-review review-count (author-review-stats-reviews value)) +CELL-SMALL-WIDTH+ (average-time-to-review review-count (author-review-stats-reviews value)) +CELL-SMALL-WIDTH+ (if (> (length reviews-us) 0) (median-time-to-review (length reviews-us) reviews-us) "n/a") +CELL-SMALL-WIDTH+ (if (> (length reviews-us) 0) (average-time-to-review (length reviews-us) reviews-us) "n/a") +CELL-SMALL-WIDTH+ (if (> (length reviews-eu) 0) (median-time-to-review (length reviews-eu) reviews-eu) "n/a") +CELL-SMALL-WIDTH+ (if (> (length reviews-eu) 0) (average-time-to-review (length reviews-eu) reviews-eu) "n/a") +CELL-SMALL-WIDTH+ (* (/ (author-review-stats-num-us-reviews value) review-count) 100.0) +CELL-SMALL-WIDTH+ (* (/ (author-review-stats-num-eu-reviews value) review-count) 100.0)))))))
 
 (defun hash-table-values (hash-table)
   (loop for key being the hash-keys of hash-table
           using (hash-value value)
         collect value))
 
-(defun average-time-to-review (review-count review)
-  (let* ((time-to-review (/ (if (> review-count 1) (reduce (lambda (lhs rhs) (+ (time-to-review-or-num lhs) (time-to-review-or-num rhs))) (author-review-stats-reviews review)) (model::review-time-to-review-secs (first (author-review-stats-reviews review)))) review-count)))
+(defun average-time-to-review (review-count reviews)
+  (let* ((time-to-review (/ (if (> review-count 1) (reduce (lambda (lhs rhs) (+ (time-to-review-or-num lhs) (time-to-review-or-num rhs))) reviews) (model::review-time-to-review-secs (first reviews))) review-count)))
     (format-review-time time-to-review)))
 
-(defun median-time-to-review (review-count review-stats)
-  (let* ((time-to-review (/ (if (> review-count 1) (model::review-time-to-review-secs (nth (- (floor review-count 2) 1) (author-review-stats-reviews review-stats))) (model::review-time-to-review-secs (first (author-review-stats-reviews review-stats)))) review-count)))
+(defun median-time-to-review (review-count reviews)
+  (let* ((time-to-review (/ (if (> review-count 1) (model::review-time-to-review-secs (nth (- (floor review-count 2) 1) reviews)) (model::review-time-to-review-secs (first reviews))) review-count)))
     (format-review-time time-to-review)))
 
 (defun format-review-time (time)
@@ -65,7 +71,7 @@
             do (let ((reviews (remove nil (model::pull-request-reviews pull-request))))
                  (loop for review in reviews
             do (let* ((review-stats (or (gethash (model::user-id (model::review-author review)) github-stats) (make-author-review-stats :author (model::review-author review) :reviews nil)))
-                      (updated-review-stats (progn (setf (author-review-stats-reviews review-stats) (append (author-review-stats-reviews review-stats) (list review)) (author-review-stats-num-us-reviews review-stats) (accumulate-review-count-for-team (model::pull-request-author pull-request) (author-review-stats-num-us-reviews review-stats) review team-1) (author-review-stats-num-eu-reviews review-stats) (accumulate-review-count-for-team (model::pull-request-author pull-request) (author-review-stats-num-eu-reviews review-stats) review team-2)) review-stats)))
+                      (updated-review-stats (progn (setf (author-review-stats-reviews review-stats) (append (author-review-stats-reviews review-stats) (list review)) (author-review-stats-num-us-reviews review-stats) (accumulate-review-count-for-team (model::pull-request-author pull-request) (author-review-stats-num-us-reviews review-stats) review team-1) (author-review-stats-num-eu-reviews review-stats) (accumulate-review-count-for-team (model::review-pull-request-author review) (author-review-stats-num-eu-reviews review-stats) review team-2)) review-stats)))
                  (setf (gethash (model::user-id (model::review-author review)) github-stats) updated-review-stats)))))
       github-stats))
 

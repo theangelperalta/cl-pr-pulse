@@ -11,6 +11,7 @@
   id
   author
   is-own-pull
+  pull-request-author
   submitted-at
   comment-count ;; get(data, 'comments.totalCount')
   time-to-review-secs) ;; submittedAt - startDate
