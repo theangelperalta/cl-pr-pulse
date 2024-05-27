@@ -1,4 +1,4 @@
 (in-package :cl-pr-pulse)
 
 (defun main ()
-  (interactor:collect-stats "https://raw.githubusercontent.com/sky-uk/core-video-sdk-ios/develop/CVReferenceApp/CVMockedAssets/Sources/Fixtures/VAM/vodFreewheelParams.json?token=GHSAT0AAAAAACG4W33LGJFZW5CPXQSKHLOAZSFF5WQ"))
+  (interactor:collect-stats "PR_URL" "TEAM_1_URL" "TEAM_2_URL" "NON_TEAM_URL"))

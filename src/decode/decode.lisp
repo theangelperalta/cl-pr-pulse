@@ -30,7 +30,10 @@
     (model:make-review :id id :author author :is-own-pull is-own-pull :submitted-at submitted-at :comment-count comment-count :time-to-review-secs time-to-review-secs)))
 
 (defun decode-pull-requests (data)
-  (mapcar (lambda (pull-request) (model:make-pull-request :id (assoc-path pull-request '(:id)) :title (assoc-path pull-request '(:title)) :url (assoc-path pull-request '(:url)) :published-at (local-time:parse-timestring (assoc-path pull-request '(:published-at))) :author (assoc-path pull-request '(:author)) :reviews (mapcar #'(lambda (data) (decode-review pull-request data)) (assoc-path pull-request '(:reviews :nodes))))) (cdr (cadadr (cadar data)))))
+  (mapcar (lambda (pull-request) (model:make-pull-request :id (assoc-path pull-request '(:id)) :title (assoc-path pull-request '(:title)) :url (assoc-path pull-request '(:url)) :published-at (local-time:parse-timestring (assoc-path pull-request '(:published-at))) :author (decode-user (assoc-path pull-request '(:author))) :reviews (mapcar #'(lambda (data) (decode-review pull-request data)) (assoc-path pull-request '(:reviews :nodes))))) (assoc-path data '(:data :repository :pull-requests :nodes))))
+
+(defun decode-team-members (data)
+  (mapcar (lambda (user) (decode-user user)) (assoc-path data '(:data :organization :team :members :nodes))))
 
 (defun decode-stats (data)
   (decode-pull-requests data))

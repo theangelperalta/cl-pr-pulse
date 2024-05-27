@@ -10,7 +10,11 @@
   (with-json-decoding ()
     #+(or)
     (drakma:http-request url)
-    (example-json)))
+    (example-json url)))
 
-(defun example-json ()
-  (uiop:read-file-string (concatenate 'string (or (uiop:getenv "CL_PROJECTS_PATH") "~/Developer/cl") "/cl-pr-pulse/example-pr.json")))
+(defun example-json (url)
+  (cond
+    ((equalp url "TEAM_1_URL") (uiop:read-file-string (concatenate 'string (or (uiop:getenv "CL_PROJECTS_PATH") "~/Developer/cl") "/cl-pr-pulse/user.json")))
+    ((equalp url "TEAM_2_URL") (uiop:read-file-string (concatenate 'string (or (uiop:getenv "CL_PROJECTS_PATH") "~/Developer/cl") "/cl-pr-pulse/user-eu.json")))
+    ((equalp url "NON_TEAM_URL") (uiop:read-file-string (concatenate 'string (or (uiop:getenv "CL_PROJECTS_PATH") "~/Developer/cl") "/cl-pr-pulse/non-user.json")))
+    (t (uiop:read-file-string (concatenate 'string (or (uiop:getenv "CL_PROJECTS_PATH") "~/Developer/cl") "/cl-pr-pulse/example-pr.json")))))
