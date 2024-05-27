@@ -67,13 +67,14 @@
         collect (model::pull-request-reviews pull-request)))
 
 (defun parse-pull-request-reviews (pull-requests team-1 team-2)
-  (let ((github-stats (make-hash-table)))
+  (let ((github-stats (make-hash-table))
+        (team-members (flatten (append team-1 team-2))))
       (loop for pull-request in pull-requests
             do (let ((reviews (remove nil (model::pull-request-reviews pull-request))))
                  (loop for review in reviews
-            do (let* ((review-stats (or (gethash (model::user-id (model::review-author review)) github-stats) (make-author-review-stats :author (model::review-author review) :reviews nil)))
+            do (when (remove-if-not (lambda (team-member) (equalp (model::user-id (model::review-author review)) (model::user-id team-member))) team-members) (let* ((review-stats (or (gethash (model::user-id (model::review-author review)) github-stats) (make-author-review-stats :author (model::review-author review) :reviews nil)))
                       (updated-review-stats (progn (setf (author-review-stats-reviews review-stats) (append (author-review-stats-reviews review-stats) (list review)) (author-review-stats-num-us-reviews review-stats) (accumulate-review-count-for-team (model::pull-request-author pull-request) (author-review-stats-num-us-reviews review-stats) review team-1) (author-review-stats-num-eu-reviews review-stats) (accumulate-review-count-for-team (model::review-pull-request-author review) (author-review-stats-num-eu-reviews review-stats) review team-2)) review-stats)))
-                 (setf (gethash (model::user-id (model::review-author review)) github-stats) updated-review-stats)))))
+                 (setf (gethash (model::user-id (model::review-author review)) github-stats) updated-review-stats))))))
       github-stats))
 
 (defun accumulate-review-count-for-team (pr-author current-count review team-members)
