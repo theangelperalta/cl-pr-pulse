@@ -3,7 +3,6 @@
 (defun ppprint (json-object)
   "Pretty print json object"
   ;; FIXME: I need to fix pretty printing
-  ;; (cl-json-utils:pprint-json (json:encode-json json-object)))
    (json:encode-json json-object))
 
 (defun replace-all (string part replacement &key (test #'char=))
