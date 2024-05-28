@@ -19,10 +19,10 @@
 
 (defun decode-review-state (raw-review-state)
   (cond
-    ((string-equal (raw-review-state) "APPROVED") :approved)
-    ((string-equal (raw-review-state) "DISMISSED") :dismissed)
-    ((string-equal (raw-review-state) "CHANGES_REQUESTED") :changes-requests)
-    ((string-equal (raw-review-state) "COMMENTED") :commented)
+    ((string-equal raw-review-state "APPROVED") :approved)
+    ((string-equal raw-review-state "DISMISSED") :dismissed)
+    ((string-equal raw-review-state "CHANGES_REQUESTED") :changes-requests)
+    ((string-equal raw-review-state "COMMENTED") :commented)
     (t :unknown)))
 
 (defun decode-review (pull-request data)
