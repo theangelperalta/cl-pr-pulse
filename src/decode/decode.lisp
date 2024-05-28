@@ -17,9 +17,18 @@
          (avatar-url (assoc-path user '(:avatar-url))))
     (model:make-user :id id :name name :url url :login login :avatar-url avatar-url)))
 
+(defun decode-review-state (raw-review-state)
+  (cond
+    ((string-equal (raw-review-state) "APPROVED") :approved)
+    ((string-equal (raw-review-state) "DISMISSED") :dismissed)
+    ((string-equal (raw-review-state) "CHANGES_REQUESTED") :changes-requests)
+    ((string-equal (raw-review-state) "COMMENTED") :commented)
+    (t :unknown)))
+
 (defun decode-review (pull-request data)
   (let* ((id (assoc-path data '(:id)))
          (author (decode-user (assoc-path data '(:author))))
+         (state (decode-review-state (assoc-path data '(:state))))
          (is-own-pull (equalp (model::user-login author) (assoc-path pull-request '(:author-login))))
          (pull-request-author (decode-user (assoc-path pull-request '(:author))))
          (submitted-at (local-time:parse-timestring (assoc-path data '(:submitted-at))))
@@ -28,7 +37,7 @@
          (start-date (local-time:timestamp-maximum commit-date (local-time:parse-timestring (assoc-path pull-request '(:published-at)))))
          (comment-count (assoc-path data '(:comments :total-count)))
          (time-to-review-secs (local-time:timestamp-to-unix (diff-timestamp submitted-at start-date))))
-    (model:make-review :id id :author author :is-own-pull is-own-pull :pull-request-author pull-request-author :submitted-at submitted-at :comment-count comment-count :time-to-review-secs time-to-review-secs)))
+    (model:make-review :id id :author author :state state :is-own-pull is-own-pull :pull-request-author pull-request-author :submitted-at submitted-at :comment-count comment-count :time-to-review-secs time-to-review-secs)))
 
 (defun decode-pull-requests (data)
   (mapcar (lambda (pull-request) (model:make-pull-request :id (assoc-path pull-request '(:id)) :title (assoc-path pull-request '(:title)) :url (assoc-path pull-request '(:url)) :published-at (local-time:parse-timestring (assoc-path pull-request '(:published-at))) :author (decode-user (assoc-path pull-request '(:author))) :reviews (mapcar #'(lambda (data) (decode-review pull-request data)) (assoc-path pull-request '(:reviews :nodes))))) (assoc-path data '(:data :repository :pull-requests :nodes))))

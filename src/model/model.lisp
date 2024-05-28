@@ -10,6 +10,7 @@
 (defstruct review
   id
   author
+  state
   is-own-pull
   pull-request-author
   submitted-at

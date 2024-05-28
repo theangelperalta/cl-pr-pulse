@@ -44,7 +44,7 @@
 
 (defun format-review-time (time)
   (format nil "~,2F ~A" (format-time time) (format-abrv time)))
-
+user
 (defun format-time (time)
   (cond
     ((> time 86400) (/ time 86400.0))
@@ -72,7 +72,7 @@
       (loop for pull-request in pull-requests
             do (let ((reviews (remove nil (model::pull-request-reviews pull-request))))
                  (loop for review in reviews
-            do (when (remove-if-not (lambda (team-member) (equalp (model::user-id (model::review-author review)) (model::user-id team-member))) team-members) (let* ((review-stats (or (gethash (model::user-id (model::review-author review)) github-stats) (make-author-review-stats :author (model::review-author review) :reviews nil)))
+            do (when (and (find (model::review-state review) '(:approved :dismissed)) (remove-if-not (lambda (team-member) (equalp (model::user-id (model::review-author review)) (model::user-id team-member))) team-members)) (let* ((review-stats (or (gethash (model::user-id (model::review-author review)) github-stats) (make-author-review-stats :author (model::review-author review) :reviews nil)))
                       (updated-review-stats (progn (setf (author-review-stats-reviews review-stats) (append (author-review-stats-reviews review-stats) (list review)) (author-review-stats-num-us-reviews review-stats) (accumulate-review-count-for-team (model::pull-request-author pull-request) (author-review-stats-num-us-reviews review-stats) review team-1) (author-review-stats-num-eu-reviews review-stats) (accumulate-review-count-for-team (model::review-pull-request-author review) (author-review-stats-num-eu-reviews review-stats) review team-2)) review-stats)))
                  (setf (gethash (model::user-id (model::review-author review)) github-stats) updated-review-stats))))))
       github-stats))
