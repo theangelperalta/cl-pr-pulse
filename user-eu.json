@@ -1,0 +1,76 @@
+{
+    "data": {
+      "organization": {
+        "team": {
+          "name": "core-video-team-ios-eu",
+          "members": {
+            "nodes": [
+              {
+                "url": "https://github.com/gpe08",
+                "login": "gpe08",
+                "name": "Gonzalo Perez",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/16305255?u=37acd32cb587ca9c97f7498e68fde286b8e99e15&v=4",
+                "databaseId": 16305255
+              },
+              {
+                "url": "https://github.com/robertcareysky",
+                "login": "robertcareysky",
+                "name": "Rob Carey",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/17544350?v=4",
+                "databaseId": 17544350
+              },
+              {
+                "url": "https://github.com/sumuhans",
+                "login": "sumuhans",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/39094976?v=4",
+                "databaseId": 39094976
+              },
+              {
+                "url": "https://github.com/nikitasuman-nbcuni",
+                "login": "nikitasuman-nbcuni",
+                "name": "nikitasuman-nbcuni",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/50885308?v=4",
+                "databaseId": 50885308
+              },
+              {
+                "url": "https://github.com/jasonquache",
+                "login": "jasonquache",
+                "name": "Jason Quach",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/59347744?u=532043b577fdbf2b0f452d0150cea78b538085a2&v=4",
+                "databaseId": 59347744
+              },
+              {
+                "url": "https://github.com/MihaiCojocar",
+                "login": "MihaiCojocar",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/75254737?u=318125e9499e1c5aee8e135b926e28a0439a4802&v=4",
+                "databaseId": 75254737
+              },
+              {
+                "url": "https://github.com/aqr95",
+                "login": "aqr95",
+                "name": "Aqib Rashid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/91616519?u=f785ffc20a8b06affe0514ad7492c558acd7c809&v=4",
+                "databaseId": 91616519
+              },
+              {
+                "url": "https://github.com/Hamza-a-r",
+                "login": "Hamza-a-r",
+                "name": "Hamza",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/117295870?u=fa49f2363732418caf0950943461b2edc7e2376e&v=4",
+                "databaseId": 117295870
+              },
+              {
+                "url": "https://github.com/rcharlton-sky",
+                "login": "rcharlton-sky",
+                "name": "Robin Charlton",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/121031752?v=4",
+                "databaseId": 121031752
+              }
+            ]
+          }
+        }
+      }
+    }
+  }

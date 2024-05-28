@@ -1,0 +1,111 @@
+{
+    "data": {
+      "organization": {
+        "team": {
+          "name": "core-video-team-ios",
+          "members": {
+            "nodes": [
+              {
+                "url": "https://github.com/saskiya",
+                "login": "saskiya",
+                "name": "Sas",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1511795?u=cb1c69c627b81132d5e8e104183863b5bac1ff8f&v=4",
+                "databaseId": 1511795
+              },
+              {
+                "url": "https://github.com/theRealRobG",
+                "login": "theRealRobG",
+                "name": "Robert Galluccio",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/13763704?v=4",
+                "databaseId": 13763704
+              },
+              {
+                "url": "https://github.com/aditya-bommegowda",
+                "login": "aditya-bommegowda",
+                "name": "Aditya Bommegowda",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/29067644?v=4",
+                "databaseId": 29067644
+              },
+              {
+                "url": "https://github.com/AdeSkyVR",
+                "login": "AdeSkyVR",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/44836106?v=4",
+                "databaseId": 44836106
+              },
+              {
+                "url": "https://github.com/nikitasuman-nbcuni",
+                "login": "nikitasuman-nbcuni",
+                "name": "nikitasuman-nbcuni",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/50885308?v=4",
+                "databaseId": 50885308
+              },
+              {
+                "url": "https://github.com/emeka-uche-emezue",
+                "login": "emeka-uche-emezue",
+                "name": "Emeka Emezue",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/63047928?v=4",
+                "databaseId": 63047928
+              },
+              {
+                "url": "https://github.com/BalrajBains",
+                "login": "BalrajBains",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/77684014?v=4",
+                "databaseId": 77684014
+              },
+              {
+                "url": "https://github.com/aqr95",
+                "login": "aqr95",
+                "name": "Aqib Rashid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/91616519?u=f785ffc20a8b06affe0514ad7492c558acd7c809&v=4",
+                "databaseId": 91616519
+              },
+              {
+                "url": "https://github.com/Sky-Chandra",
+                "login": "Sky-Chandra",
+                "name": "Chandra",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/95632196?v=4",
+                "databaseId": 95632196
+              },
+              {
+                "url": "https://github.com/ab-sky",
+                "login": "ab-sky",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/117314683?v=4",
+                "databaseId": 117314683
+              },
+              {
+                "url": "https://github.com/jay-embry",
+                "login": "jay-embry",
+                "name": "Jay Embry",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/131183719?v=4",
+                "databaseId": 131183719
+              },
+              {
+                "url": "https://github.com/gt-sky",
+                "login": "gt-sky",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/131902882?v=4",
+                "databaseId": 131902882
+              },
+              {
+                "url": "https://github.com/EmiOladiran",
+                "login": "EmiOladiran",
+                "name": null,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/136330100?v=4",
+                "databaseId": 136330100
+              },
+              {
+                "url": "https://github.com/cmuench-nbcu",
+                "login": "cmuench-nbcu",
+                "name": "Chris Muench",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/153563327?v=4",
+                "databaseId": 153563327
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
