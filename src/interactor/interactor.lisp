@@ -12,8 +12,8 @@
 ;; Team 1 - US
 ;; Team 2 - EU
 ;;
-(defconstant +CELL-SMALL-WIDTH+ 15)
-(defconstant +CELL-MEDIUM-WIDTH+ 20)
+(defconstant +CELL-SMALL-WIDTH+ 16)
+(defconstant +CELL-MEDIUM-WIDTH+ 18)
 
 (defun collect-stats (url team-1 team-2 non-team)
   (let* ((non-team (decode:decode-team-members (net:http-request-with-json-decoding non-team)))
@@ -22,12 +22,32 @@
          (github-stats (parse-pull-request-reviews (decode:decode-stats (net:http-request-with-json-decoding url)) team-1 team-2))
          (list-of-github-stats (sort (hash-table-values github-stats) (lambda (lhs rhs) (> (list-length (author-review-stats-reviews lhs)) (list-length (author-review-stats-reviews rhs)))))))
     (progn
-    (format t "|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~%" 25 "Team Member" +CELL-SMALL-WIDTH+ "# Reviews" +CELL-MEDIUM-WIDTH+ "Median TTR" +CELL-MEDIUM-WIDTH+ "Average TTR" +CELL-MEDIUM-WIDTH+ "Median TTR U.S" +CELL-MEDIUM-WIDTH+ "Average TTR U.S" +CELL-MEDIUM-WIDTH+ "Median TTR E.U." +CELL-MEDIUM-WIDTH+ "Average TTR E.U." +CELL-MEDIUM-WIDTH+ "% U.S. Reviews" +CELL-MEDIUM-WIDTH+ "% E.U. Reviews")
+    (format t "|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~%"
+            25 "Team Member"
+            +CELL-SMALL-WIDTH+ "# Reviews"
+            +CELL-MEDIUM-WIDTH+ "Median TTR"
+            +CELL-MEDIUM-WIDTH+ "Average TTR"
+            +CELL-MEDIUM-WIDTH+ "Median TTR U.S"
+            +CELL-MEDIUM-WIDTH+ "Median TTR E.U."
+            +CELL-MEDIUM-WIDTH+ "Average TTR U.S"
+            +CELL-MEDIUM-WIDTH+ "Average TTR E.U."
+            +CELL-MEDIUM-WIDTH+ "% U.S. Reviews"
+            +CELL-MEDIUM-WIDTH+ "% E.U. Reviews")
     (loop for value in list-of-github-stats
           do (let* ((review-count (list-length (author-review-stats-reviews value)))
                     (reviews-us (remove-if-not (lambda (review) (remove nil (mapcar (lambda (team-member) (equalp (model::user-id (model::review-pull-request-author review)) (model::user-id team-member))) team-1))) (author-review-stats-reviews value)))
                     (reviews-eu (remove-if-not (lambda (review) (remove nil (mapcar (lambda (team-member) (equalp (model::user-id (model::review-pull-request-author review)) (model::user-id team-member))) team-2))) (author-review-stats-reviews value))))
-               (format t "|~vA|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~,2F~>|~v:@<~,2F~>|~%"  25 (or (model::user-name (author-review-stats-author value)) (model::user-login (author-review-stats-author value))) +CELL-SMALL-WIDTH+ review-count +CELL-MEDIUM-WIDTH+ (median-time-to-review review-count (author-review-stats-reviews value)) +CELL-MEDIUM-WIDTH+ (average-time-to-review review-count (author-review-stats-reviews value)) +CELL-MEDIUM-WIDTH+ (if (> (length reviews-us) 0) (median-time-to-review (length reviews-us) reviews-us) "n/a") +CELL-MEDIUM-WIDTH+ (if (> (length reviews-us) 0) (average-time-to-review (length reviews-us) reviews-us) "n/a") +CELL-MEDIUM-WIDTH+ (if (> (length reviews-eu) 0) (median-time-to-review (length reviews-eu) reviews-eu) "n/a") +CELL-MEDIUM-WIDTH+ (if (> (length reviews-eu) 0) (average-time-to-review (length reviews-eu) reviews-eu) "n/a") +CELL-MEDIUM-WIDTH+ (* (/ (author-review-stats-num-us-reviews value) review-count) 100.0) +CELL-MEDIUM-WIDTH+ (* (/ (author-review-stats-num-eu-reviews value) review-count) 100.0)))))))
+               (format t "|~vA|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~A~>|~v:@<~,2F~>|~v:@<~,2F~>|~%"
+                       25 (or (model::user-name (author-review-stats-author value)) (model::user-login (author-review-stats-author value)))
+                       +CELL-SMALL-WIDTH+ review-count
+                       +CELL-MEDIUM-WIDTH+ (median-time-to-review review-count (author-review-stats-reviews value))
+                       +CELL-MEDIUM-WIDTH+ (average-time-to-review review-count (author-review-stats-reviews value))
+                       +CELL-MEDIUM-WIDTH+ (if (> (length reviews-us) 0) (median-time-to-review (length reviews-us) reviews-us) "n/a")
+                       +CELL-MEDIUM-WIDTH+ (if (> (length reviews-eu) 0) (median-time-to-review (length reviews-eu) reviews-eu) "n/a")
+                       +CELL-MEDIUM-WIDTH+ (if (> (length reviews-us) 0) (average-time-to-review (length reviews-us) reviews-us) "n/a")
+                       +CELL-MEDIUM-WIDTH+ (if (> (length reviews-eu) 0) (average-time-to-review (length reviews-eu) reviews-eu) "n/a")
+                       +CELL-MEDIUM-WIDTH+ (* (/ (author-review-stats-num-us-reviews value) review-count) 100.0)
+                       +CELL-MEDIUM-WIDTH+ (* (/ (author-review-stats-num-eu-reviews value) review-count) 100.0)))))))
 
 (defun hash-table-values (hash-table)
   (loop for key being the hash-keys of hash-table
